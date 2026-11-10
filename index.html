@@ -4,93 +4,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f7f3">
-  <meta name="description" content="A map-first starting point for Canadian travellers checking official entry requirements and travel advice.">
-  <title>Before You Go — Canadian travel requirements</title>
+  <meta name="description" content="Explore Government of Canada travel advice by destination, with a colour-coded map and links to official regional advisories.">
+  <title>Before You Go — Canadian travel advice</title>
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://{s}.tile.openstreetmap.org">
+  <link rel="preconnect" href="https://data.international.gc.ca">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <style>
-    :root {
-      color-scheme: light;
-      --ink: #172d35;
-      --muted: #64757a;
-      --line: #dce4df;
-      --paper: #fff;
-      --canvas: #f6f7f3;
-      --green: #17684f;
-      --green-dark: #104c3b;
-      --mint: #e8f2ed;
-      --gold: #f0c66c;
-      --shadow: 0 16px 40px rgba(23, 45, 53, .10);
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: var(--canvas); color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    a { color: inherit; }
-    .topbar { height: 72px; display: flex; align-items: center; justify-content: space-between; padding: 0 clamp(20px, 5vw, 76px); background: rgba(255,255,255,.92); border-bottom: 1px solid var(--line); }
-    .brand { display: flex; gap: 11px; align-items: center; text-decoration: none; font-weight: 760; letter-spacing: -.035em; font-size: 19px; }
-    .brand-mark { width: 35px; height: 35px; display: grid; place-items: center; border-radius: 11px; background: var(--green); color: white; font-size: 20px; }
-    .top-link { color: var(--green-dark); font-size: 13px; font-weight: 700; text-decoration: none; }
-    main { max-width: 1440px; padding: 42px clamp(18px, 5vw, 76px) 48px; margin: auto; }
-    .intro { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; margin-bottom: 26px; }
-    .eyebrow { color: var(--green); text-transform: uppercase; letter-spacing: .14em; font-size: 11px; font-weight: 800; margin: 0 0 12px; }
-    h1 { margin: 0; font-size: clamp(32px, 4vw, 49px); line-height: 1.05; letter-spacing: -.055em; }
-    .lead { max-width: 590px; margin: 12px 0 0; color: var(--muted); line-height: 1.6; font-size: 15px; }
-    .updated { white-space: nowrap; color: var(--muted); font-size: 12px; padding-bottom: 5px; }
-    .updated strong { color: var(--ink); }
-    .workspace { min-height: 580px; height: min(68vh, 760px); display: grid; grid-template-columns: minmax(0, 1fr) 350px; background: var(--paper); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); }
-    .map-wrap { position: relative; min-width: 0; background: #e8efeb; }
-    #map { width: 100%; height: 100%; min-height: 530px; }
-    .map-label { position: absolute; z-index: 500; bottom: 18px; left: 18px; background: rgba(255,255,255,.94); border: 1px solid var(--line); border-radius: 9px; padding: 9px 12px; color: var(--muted); font-size: 11px; box-shadow: 0 3px 12px #172d3514; }
-    .map-label b { color: var(--ink); }
-    .sidebar { display: flex; flex-direction: column; border-left: 1px solid var(--line); min-width: 0; }
-    .search-area { padding: 24px 23px 20px; border-bottom: 1px solid var(--line); }
-    .search-area h2 { font-size: 16px; margin: 0 0 14px; letter-spacing: -.02em; }
-    .searchbox { position: relative; }
-    .searchbox input { width: 100%; height: 46px; border: 1px solid #cbd6d1; border-radius: 9px; background: #fff; padding: 0 40px 0 13px; color: var(--ink); font: inherit; font-size: 13px; outline: none; }
-    .searchbox input:focus { border-color: var(--green); box-shadow: 0 0 0 3px #17684f1a; }
-    .search-icon { position: absolute; right: 13px; top: 12px; color: var(--muted); pointer-events: none; }
-    .hint { margin: 9px 0 0; color: var(--muted); font-size: 11px; }
-    .country-panel { padding: 25px 23px; flex: 1; }
-    .empty-state { padding: 14px 0; }
-    .globe { width: 46px; height: 46px; display: grid; place-items: center; background: var(--mint); border-radius: 14px; color: var(--green); font-size: 24px; margin-bottom: 18px; }
-    .empty-state h3, .country-detail h3 { margin: 0 0 9px; font-size: 20px; letter-spacing: -.035em; }
-    .empty-state p, .country-detail p { color: var(--muted); line-height: 1.55; font-size: 13px; margin: 0; }
-    .detail-kicker { color: var(--green); font-size: 10px; text-transform: uppercase; letter-spacing: .14em; font-weight: 800; margin-bottom: 9px; }
-    .status { display: inline-flex; gap: 7px; align-items: center; padding: 7px 9px; border-radius: 7px; background: #fff4dc; color: #74500c; font-size: 11px; font-weight: 750; margin: 13px 0 16px; }
-    .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #d39a23; }
-    .notice { margin-top: 21px; padding: 13px; background: #f5f7f5; border-radius: 9px; color: #53666a; font-size: 11px; line-height: 1.5; }
-    .official-link { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; padding: 13px 14px; border-radius: 9px; background: var(--green); color: white; text-decoration: none; font-size: 12px; font-weight: 750; transition: background .15s ease; }
-    .official-link:hover { background: var(--green-dark); }
-    .checklist { border-top: 1px solid var(--line); padding: 18px 23px 20px; }
-    .checklist h4 { margin: 0 0 11px; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; }
-    .checklist ul { padding: 0 0 0 17px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.8; }
-    .search-results { position: absolute; top: calc(100% + 5px); left: 0; right: 0; z-index: 1000; max-height: 220px; overflow: auto; background: white; border: 1px solid var(--line); border-radius: 9px; box-shadow: var(--shadow); }
-    .result { display: block; width: 100%; padding: 10px 12px; border: 0; border-bottom: 1px solid #eef1ef; background: white; color: var(--ink); text-align: left; font: inherit; font-size: 12px; cursor: pointer; }
-    .result:hover, .result:focus { background: var(--mint); outline: none; }
-    .leaflet-container { font-family: inherit; }
-    .leaflet-control-attribution { font-size: 9px !important; }
-    .country-shape { transition: fill .15s; }
-    .load-error { position: absolute; z-index: 600; inset: 20px 20px auto; padding: 12px 15px; border-radius: 9px; background: #fff4dc; color: #674910; font-size: 12px; box-shadow: var(--shadow); }
-    footer { display: flex; justify-content: space-between; gap: 20px; padding: 20px 3px 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
-    footer a { color: var(--green-dark); }
-    @media (max-width: 850px) {
-      main { padding-top: 30px; }
-      .intro { align-items: flex-start; flex-direction: column; gap: 12px; }
-      .workspace { height: auto; grid-template-columns: 1fr; }
-      .map-wrap { height: 54vh; min-height: 390px; }
-      #map { min-height: 390px; }
-      .sidebar { border-left: 0; }
-      .country-panel { min-height: 220px; }
-    }
-    @media (max-width: 520px) {
-      .topbar { height: 62px; padding: 0 18px; }
-      .top-link { font-size: 11px; }
-      main { padding: 27px 14px 32px; }
-      h1 { font-size: 34px; }
-      .map-wrap { height: 48vh; min-height: 330px; }
-      #map { min-height: 330px; }
-      footer { flex-direction: column; gap: 6px; }
-    }
+    :root { color-scheme:light; --ink:#172d35; --muted:#64757a; --line:#dce4df; --paper:#fff; --canvas:#f6f7f3; --green:#17684f; --green-dark:#104c3b; --mint:#e8f2ed; --shadow:0 16px 40px rgba(23,45,53,.10); }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--canvas); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:inherit; }
+    .topbar { height:72px; display:flex; align-items:center; justify-content:space-between; padding:0 clamp(20px,5vw,76px); background:rgba(255,255,255,.92); border-bottom:1px solid var(--line); }
+    .brand { display:flex; gap:11px; align-items:center; text-decoration:none; font-weight:760; letter-spacing:-.035em; font-size:19px; }
+    .brand-mark { width:35px; height:35px; display:grid; place-items:center; border-radius:11px; background:var(--green); color:white; font-size:20px; }
+    .top-link { color:var(--green-dark); font-size:13px; font-weight:700; text-decoration:none; }
+    main { max-width:1440px; padding:42px clamp(18px,5vw,76px) 48px; margin:auto; }
+    .intro { display:flex; align-items:flex-end; justify-content:space-between; gap:28px; margin-bottom:26px; }
+    .eyebrow { color:var(--green); text-transform:uppercase; letter-spacing:.14em; font-size:11px; font-weight:800; margin:0 0 12px; }
+    h1 { margin:0; font-size:clamp(32px,4vw,49px); line-height:1.05; letter-spacing:-.055em; }
+    .lead { max-width:620px; margin:12px 0 0; color:var(--muted); line-height:1.6; font-size:15px; }
+    .updated { white-space:nowrap; color:var(--muted); font-size:12px; padding-bottom:5px; }
+    .updated strong { color:var(--ink); }
+    .workspace { min-height:580px; height:min(68vh,760px); display:grid; grid-template-columns:minmax(0,1fr) 350px; background:var(--paper); border:1px solid var(--line); border-radius:18px; overflow:hidden; box-shadow:var(--shadow); }
+    .map-wrap { position:relative; min-width:0; background:#e8efeb; }
+    #map { width:100%; height:100%; min-height:530px; }
+    .map-label { position:absolute; z-index:500; bottom:18px; left:18px; max-width:calc(100% - 36px); background:rgba(255,255,255,.96); border:1px solid var(--line); border-radius:9px; padding:10px 12px; color:var(--muted); font-size:10px; line-height:1.6; box-shadow:0 3px 12px #172d3514; }
+    .map-label b { color:var(--ink); }
+    .legend { display:flex; gap:9px 13px; flex-wrap:wrap; margin-top:5px; }
+    .legend span { display:inline-flex; gap:5px; align-items:center; white-space:nowrap; }
+    .swatch { display:inline-block; width:10px; height:10px; border-radius:3px; border:1px solid #263b3840; }
+    .sidebar { display:flex; flex-direction:column; border-left:1px solid var(--line); min-width:0; }
+    .search-area { padding:24px 23px 20px; border-bottom:1px solid var(--line); }
+    .search-area h2 { font-size:16px; margin:0 0 14px; letter-spacing:-.02em; }
+    .searchbox { position:relative; }
+    .searchbox input { width:100%; height:46px; border:1px solid #cbd6d1; border-radius:9px; background:#fff; padding:0 40px 0 13px; color:var(--ink); font:inherit; font-size:13px; outline:none; }
+    .searchbox input:focus { border-color:var(--green); box-shadow:0 0 0 3px #17684f1a; }
+    .search-icon { position:absolute; right:13px; top:12px; color:var(--muted); pointer-events:none; }
+    .hint { margin:9px 0 0; color:var(--muted); font-size:11px; }
+    .country-panel { padding:25px 23px; flex:1; overflow:auto; }
+    .empty-state { padding:14px 0; }
+    .globe { width:46px; height:46px; display:grid; place-items:center; background:var(--mint); border-radius:14px; color:var(--green); font-size:24px; margin-bottom:18px; }
+    .empty-state h3,.country-detail h3 { margin:0 0 9px; font-size:20px; letter-spacing:-.035em; }
+    .empty-state p,.country-detail p { color:var(--muted); line-height:1.55; font-size:13px; margin:0; }
+    .detail-kicker { color:var(--green); font-size:10px; text-transform:uppercase; letter-spacing:.14em; font-weight:800; margin-bottom:9px; }
+    .status { display:inline-flex; gap:7px; align-items:center; padding:7px 9px; border-radius:7px; background:#f0f3f1; color:#405650; font-size:11px; font-weight:750; margin:13px 0 16px; }
+    .status-dot { width:8px; height:8px; border-radius:50%; background:#879691; }
+    .status[data-level="0"] { background:#e7f2eb; color:#24583b; } .status[data-level="0"] .status-dot { background:#347a57; }
+    .status[data-level="1"] { background:#f5f2dc; color:#6b5b13; } .status[data-level="1"] .status-dot { background:#b49e22; }
+    .status[data-level="2"] { background:#fff0df; color:#80501b; } .status[data-level="2"] .status-dot { background:#dd8427; }
+    .status[data-level="3"] { background:#fbe9e8; color:#872f2a; } .status[data-level="3"] .status-dot { background:#c94c43; }
+    .notice { margin-top:18px; padding:13px; background:#f5f7f5; border-radius:9px; color:#53666a; font-size:11px; line-height:1.5; }
+    .official-link { display:flex; justify-content:space-between; align-items:center; margin-top:17px; padding:13px 14px; border-radius:9px; background:var(--green); color:white; text-decoration:none; font-size:12px; font-weight:750; transition:background .15s ease; }
+    .official-link:hover { background:var(--green-dark); }
+    .checklist { border-top:1px solid var(--line); padding:18px 23px 20px; }
+    .checklist h4 { margin:0 0 11px; font-size:11px; text-transform:uppercase; letter-spacing:.1em; }
+    .checklist ul { padding:0 0 0 17px; margin:0; color:var(--muted); font-size:11px; line-height:1.8; }
+    .search-results { position:absolute; top:calc(100% + 5px); left:0; right:0; z-index:1000; max-height:220px; overflow:auto; background:white; border:1px solid var(--line); border-radius:9px; box-shadow:var(--shadow); }
+    .result { display:block; width:100%; padding:10px 12px; border:0; border-bottom:1px solid #eef1ef; background:white; color:var(--ink); text-align:left; font:inherit; font-size:12px; cursor:pointer; }
+    .result:hover,.result:focus { background:var(--mint); outline:none; }
+    .leaflet-container { font-family:inherit; } .leaflet-control-attribution { font-size:9px!important; }
+    .load-error { position:absolute; z-index:600; inset:20px 20px auto; padding:12px 15px; border-radius:9px; background:#fff4dc; color:#674910; font-size:12px; box-shadow:var(--shadow); }
+    footer { display:flex; justify-content:space-between; gap:20px; padding:20px 3px 0; color:var(--muted); font-size:11px; line-height:1.5; }
+    footer a { color:var(--green-dark); }
+    @media(max-width:850px) { main { padding-top:30px; } .intro { align-items:flex-start; flex-direction:column; gap:12px; } .workspace { height:auto; grid-template-columns:1fr; } .map-wrap { height:54vh; min-height:390px; } #map { min-height:390px; } .sidebar { border-left:0; } .country-panel { min-height:220px; } }
+    @media(max-width:520px) { .topbar { height:62px; padding:0 18px; } .top-link { font-size:11px; } main { padding:27px 14px 32px; } h1 { font-size:34px; } .map-wrap { height:48vh; min-height:330px; } #map { min-height:330px; } footer { flex-direction:column; gap:6px; } }
   </style>
 </head>
 <body>
@@ -102,17 +80,23 @@
     <section class="intro" aria-labelledby="page-title">
       <div>
         <p class="eyebrow">A Canadian traveller's starting point</p>
-        <h1>Know before<br>you go.</h1>
-        <p class="lead">Explore a destination, then check the Government of Canada's official guidance for entry requirements, safety and travel documents.</p>
+        <h1 id="page-title">Know before<br>you go.</h1>
+        <p class="lead">Explore current Government of Canada travel advice by destination. The map shows country-level risk; when an advisory is regional, open the official destination page for Canada's region-specific travel map.</p>
       </div>
-      <div class="updated">Information status: <strong>Prototype · verify with official sources</strong></div>
+      <div class="updated">Data source: <strong id="data-status">Loading official advisory data…</strong></div>
     </section>
 
-    <section class="workspace" aria-label="Explore destination map">
+    <section class="workspace" aria-label="Explore destination travel advice">
       <div class="map-wrap">
-        <div id="map" role="application" aria-label="World map. Select a country to view official travel guidance link."></div>
-        <div class="map-label"><b>Explore destinations</b> · select a country</div>
-        <div id="map-error" class="load-error" hidden>Map boundaries couldn't be loaded. You can still search for a country.</div>
+        <div id="map" role="application" aria-label="World map colour-coded by Government of Canada country-level travel advice. Select a country for details."></div>
+        <div class="map-label"><b>Government of Canada risk level</b><div class="legend" aria-label="Map legend">
+          <span><i class="swatch" style="background:#347a57"></i>Normal precautions</span>
+          <span><i class="swatch" style="background:#b49e22"></i>High degree of caution</span>
+          <span><i class="swatch" style="background:#dd8427"></i>Avoid non-essential travel</span>
+          <span><i class="swatch" style="background:#c94c43"></i>Avoid all travel</span>
+          <span><i class="swatch" style="background:#c8d1cd"></i>Data unavailable</span>
+        </div></div>
+        <div id="map-error" class="load-error" hidden>Map boundaries could not be loaded. Search and official advisory links may still be available.</div>
       </div>
       <aside class="sidebar" aria-label="Destination information">
         <div class="search-area">
@@ -125,124 +109,118 @@
           <p class="hint">Or select a country on the map.</p>
         </div>
         <div id="country-panel" class="country-panel" aria-live="polite">
-          <div class="empty-state">
-            <div class="globe" aria-hidden="true">◎</div>
-            <h3>Your trip starts here</h3>
-            <p>Choose a country to find the official Canadian travel advice page and a short pre-trip checklist.</p>
-            <div class="notice">Entry rules vary by nationality, trip purpose and length of stay. Always confirm details with the destination country's authorities before booking.</div>
-          </div>
+          <div class="empty-state"><div class="globe" aria-hidden="true">◎</div><h3>Your trip starts here</h3><p>Select a destination to see its current national risk level and the official Canadian travel advice.</p><div class="notice">Advice can change. Confirm entry and transit rules with official authorities for your specific trip.</div></div>
         </div>
-        <div class="checklist">
-          <h4>Before you travel</h4>
-          <ul>
-            <li>Check passport validity and visa requirements</li>
-            <li>Review health guidance and local laws</li>
-            <li>Confirm requirements with official authorities</li>
-          </ul>
-        </div>
+        <div class="checklist"><h4>Before you travel</h4><ul><li>Check passport validity and visa requirements</li><li>Review health guidance and local laws</li><li>Confirm current advice with official authorities</li></ul></div>
       </aside>
     </section>
     <footer>
       <span>Independent prototype; not affiliated with or endorsed by the Government of Canada. Not a substitute for official advice.</span>
-      <span>Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a> · Boundaries from <a href="https://github.com/datasets/geo-countries" target="_blank" rel="noopener noreferrer">geo-countries</a></span>
+      <span>Advisory data: <a href="https://open.canada.ca/data/en/dataset/bef2ebb3-ca9a-485f-aaff-5dc36eb89426" target="_blank" rel="noopener noreferrer">Global Affairs Canada</a> · Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a> · Boundaries from <a href="https://github.com/datasets/geo-countries" target="_blank" rel="noopener noreferrer">geo-countries</a></span>
     </footer>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script>
     (() => {
-      const map = L.map('map', { minZoom: 2, worldCopyJump: true, zoomControl: false }).setView([22, 8], 2);
-      L.control.zoom({ position: 'topright' }).addTo(map);
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 7,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-      }).addTo(map);
-
+      const DATA_URL = 'https://data.international.gc.ca/travel-voyage/index-alpha-eng.json';
+      const BOUNDARY_URL = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
+      const riskColors = ['#347a57', '#b49e22', '#dd8427', '#c94c43'];
+      const riskLabels = ['Take normal security precautions', 'Exercise a high degree of caution', 'Avoid non-essential travel', 'Avoid all travel'];
+      const map = L.map('map', { minZoom:2, worldCopyJump:true, zoomControl:false }).setView([22,8],2);
+      L.control.zoom({ position:'topright' }).addTo(map);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:7, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
       const search = document.getElementById('country-search');
       const results = document.getElementById('search-results');
       const panel = document.getElementById('country-panel');
+      const status = document.getElementById('data-status');
       const features = [];
+      const advisoryByName = new Map();
       let geoLayer;
       let activeLayer = null;
-      const baseStyle = { color: '#ffffff', weight: 1, fillColor: '#bad2c6', fillOpacity: .88 };
-      const activeStyle = { color: '#104c3b', weight: 2, fillColor: '#f0c66c', fillOpacity: .98 };
+      const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
       const nameOf = feature => feature.properties.ADMIN || feature.properties.name || feature.properties.NAME || 'Unknown destination';
-
+      const aliases = { 'unitedstatesofamerica':'unitedstates', 'usa':'unitedstates', 'russianfederation':'russia', 'southkorea':'korea', 'northkorea':'koreademocraticpeoplesrepublic', 'ivorycoast':'cotedivoire', 'swaziland':'eswatini', 'czechrepublic':'czechia', 'capeverde':'cabo verde'.replace(/ /g,'') };
+      function lookupNames(name) { const key = normalize(name); return [key, aliases[key]].filter(Boolean); }
+      function countryRecord(feature) { for (const key of lookupNames(nameOf(feature))) if (advisoryByName.has(key)) return advisoryByName.get(key); return null; }
+      function getRisk(record) {
+        if (!record) return null;
+        let value = record['advisory-state'] ?? record.advisoryState ?? record.eng?.['advisory-state'] ?? record.eng?.advisoryState;
+        if (typeof value === 'string' && /^\d+$/.test(value.trim())) value = Number(value);
+        if (Number.isInteger(value) && value >= 0 && value <= 3) return value;
+        const text = [record.eng?.['advisory-text'], record['advisory-text'], record.eng?.['risk-level'], record['risk-level']].filter(Boolean).join(' ').toLowerCase();
+        if (text.includes('avoid all travel')) return 3;
+        if (text.includes('avoid non-essential travel')) return 2;
+        if (text.includes('high degree of caution')) return 1;
+        if (text.includes('normal precautions')) return 0;
+        return null;
+      }
+      function styleFor(feature) {
+        const record = countryRecord(feature);
+        const risk = getRisk(record);
+        return { color:'#fff', weight:1, fillColor:risk === null ? '#c8d1cd' : riskColors[risk], fillOpacity:.88 };
+      }
+      function escapeHtml(value) { return String(value).replace(/[&<>"']/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[char])); }
+      function advisoryUrl(record, name) {
+        const candidate = record?.['url-eng'] || record?.eng?.url || record?.['url'];
+        if (typeof candidate === 'string' && candidate.startsWith('https://travel.gc.ca/')) return candidate;
+        return 'https://travel.gc.ca/destinations';
+      }
       function showDestination(feature, layer) {
         if (activeLayer && geoLayer) geoLayer.resetStyle(activeLayer);
         activeLayer = layer || null;
-        if (activeLayer) activeLayer.setStyle(activeStyle);
+        if (activeLayer) activeLayer.setStyle({ ...styleFor(feature), color:'#172d35', weight:2, fillOpacity:1 });
         const name = nameOf(feature);
-        panel.innerHTML = `
-          <div class="country-detail">
-            <div class="detail-kicker">Selected destination</div>
-            <h3>${escapeHtml(name)}</h3>
-            <p>Review Canada's official destination guidance before making travel plans.</p>
-            <div class="status"><span class="status-dot"></span> Check current requirements</div>
-            <p>Requirements can change without notice. Confirm entry and transit rules for your specific trip with the destination country's official authorities.</p>
-            <a class="official-link" href="https://travel.gc.ca/destinations" target="_blank" rel="noopener noreferrer">Find official Canadian advice <span aria-hidden="true">↗</span></a>
-            <div class="notice">This prototype does not yet ingest or verify country-specific entry requirements. The link opens Canada's destination directory; search for ${escapeHtml(name)} there.</div>
-          </div>`;
+        const record = countryRecord(feature);
+        const risk = getRisk(record);
+        const hasRegional = record && (record['has-regional-advisory'] === 1 || record['has-regional-advisory'] === '1' || record['has-regional-advisory'] === true || record.hasRegionalAdvisory === true);
+        const riskLabel = risk === null ? 'Risk level unavailable in data' : riskLabels[risk];
+        const date = record?.['date-modified'] || record?.['date-published'] || record?.eng?.['friendly-date'];
+        const url = advisoryUrl(record, name);
+        panel.innerHTML = `<div class="country-detail"><div class="detail-kicker">Selected destination</div><h3>${escapeHtml(name)}</h3><div class="status" ${risk === null ? '' : `data-level="${risk}"`}><span class="status-dot"></span>${escapeHtml(riskLabel)}</div><p>${hasRegional ? 'Canada lists regional advisories for this destination. Open the official destination page to view its region-specific travel map and read the advice for each area.' : 'Review the complete official destination advice, including local conditions and entry requirements, before travelling.'}</p>${date ? `<p style="margin-top:10px;font-size:11px">Last updated: ${escapeHtml(date)}</p>` : ''}<a class="official-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${hasRegional ? 'Open official advice & regional map' : 'Open official Canadian advice'} <span aria-hidden="true">↗</span></a><div class="notice">Map colours represent the national advisory level. Regional boundaries are not inferred from advisory text; use Canada's official map for subnational risk areas. Always verify current advice before departure.</div></div>`;
         search.value = name;
         results.hidden = true;
       }
-
-      function escapeHtml(value) {
-        return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
-      }
-
       function selectFeature(feature) {
         if (!feature) return;
         const layer = geoLayer && geoLayer.getLayers().find(item => item.feature === feature);
         showDestination(feature, layer);
-        if (layer && layer.getBounds().isValid()) map.fitBounds(layer.getBounds(), { padding: [35, 35], maxZoom: 5 });
+        if (layer && layer.getBounds().isValid()) map.fitBounds(layer.getBounds(), { padding:[35,35], maxZoom:5 });
       }
-
       function updateResults() {
-        const query = search.value.trim().toLocaleLowerCase();
+        const query = normalize(search.value.trim());
         results.replaceChildren();
         if (!query) { results.hidden = true; return; }
-        const matches = features.filter(feature => nameOf(feature).toLocaleLowerCase().includes(query)).slice(0, 8);
-        if (!matches.length) {
-          const empty = document.createElement('div');
-          empty.className = 'result'; empty.textContent = 'No matching country found';
-          results.append(empty);
-        } else {
-          matches.forEach(feature => {
-            const button = document.createElement('button');
-            button.type = 'button'; button.className = 'result'; button.textContent = nameOf(feature);
-            button.addEventListener('click', () => selectFeature(feature));
-            results.append(button);
-          });
-        }
-        results.hidden = false;
+        const matches = features.filter(feature => normalize(nameOf(feature)).includes(query)).slice(0,8);
+        if (!matches.length) { const empty=document.createElement('div'); empty.className='result'; empty.textContent='No matching country found'; results.append(empty); }
+        else matches.forEach(feature => { const button=document.createElement('button'); button.type='button'; button.className='result'; const record=countryRecord(feature); const level=getRisk(record); button.textContent=`${nameOf(feature)}${level === null ? '' : ` — ${riskLabels[level]}`}`; button.addEventListener('click',()=>selectFeature(feature)); results.append(button); });
+        results.hidden=false;
       }
-
       search.addEventListener('input', updateResults);
-      search.addEventListener('keydown', event => {
-        if (event.key === 'Escape') results.hidden = true;
-        if (event.key === 'Enter' && !results.hidden) {
-          const first = results.querySelector('button');
-          if (first) first.click();
-        }
+      search.addEventListener('keydown', event => { if (event.key==='Escape') results.hidden=true; if (event.key==='Enter' && !results.hidden) { const first=results.querySelector('button'); if (first) first.click(); } });
+      document.addEventListener('click', event => { if (!event.target.closest('.searchbox')) results.hidden=true; });
+      const advisoriesPromise = fetch(DATA_URL).then(response => { if (!response.ok) throw new Error('Official advisory data request failed'); return response.json(); }).then(json => {
+        const records = json.data || json;
+        Object.values(records).forEach(record => {
+          if (!record || typeof record !== 'object') return;
+          const name = record['country-eng'] || record.eng?.name || record.name;
+          if (name) lookupNames(name).forEach(key => advisoryByName.set(key, record));
+        });
+        const generated = json.metadata?.generated?.date;
+        status.textContent = generated ? `Official data · ${generated}` : 'Official data loaded';
       });
-      document.addEventListener('click', event => {
-        if (!event.target.closest('.searchbox')) results.hidden = true;
+      const boundariesPromise = fetch(BOUNDARY_URL).then(response => { if (!response.ok) throw new Error('Country boundary request failed'); return response.json(); }).then(data => {
+        features.push(...data.features);
+        geoLayer = L.geoJSON(data, { style:styleFor, onEachFeature:(feature, layer) => {
+          layer.bindTooltip(nameOf(feature), { sticky:true });
+          layer.on({ click:()=>showDestination(feature,layer), mouseover:event=>{ if (event.target!==activeLayer) event.target.setStyle({ ...styleFor(feature), fillOpacity:1, weight:1.6 }); }, mouseout:event=>{ if (event.target!==activeLayer) geoLayer.resetStyle(event.target); } });
+        }}).addTo(map);
       });
-
-      fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
-        .then(response => { if (!response.ok) throw new Error('Country boundary request failed'); return response.json(); })
-        .then(data => {
-          features.push(...data.features);
-          geoLayer = L.geoJSON(data, {
-            style: () => baseStyle,
-            onEachFeature: (feature, layer) => {
-              layer.bindTooltip(nameOf(feature), { sticky: true });
-              layer.on({ click: () => showDestination(feature, layer), mouseover: event => { if (event.target !== activeLayer) event.target.setStyle({ fillColor: '#92b8a5', fillOpacity: 1, weight: 1.5 }); }, mouseout: event => { if (event.target !== activeLayer) geoLayer.resetStyle(event.target); } });
-            }
-          }).addTo(map);
-        })
-        .catch(() => { document.getElementById('map-error').hidden = false; });
+      Promise.allSettled([advisoriesPromise,boundariesPromise]).then(results => {
+        if (results[0].status === 'rejected') status.textContent='Official advisory data unavailable';
+        if (results[1].status === 'rejected') document.getElementById('map-error').hidden=false;
+        if (geoLayer && results[0].status === 'fulfilled') geoLayer.setStyle(styleFor);
+      });
     })();
   </script>
 </body>
