@@ -18,7 +18,7 @@ LAYER_URL = (
 OUTPUT = Path("data/regional-advisories.geojson")
 USER_AGENT = "BeforeYouGo-RegionalAdvisoryMap/1.0 (GitHub Actions; public map-data consumer)"
 PAGE_SIZE = 1000
-FIELDS = "OBJECTID,WP_Name,WP_Name_ND,Map_Label,NAME,LEVEL_,URL,ADVDATE,ISO_2,ISO_3,State_name,WP_ID"
+FIELDS = "OBJECTID,NAME,LEVEL_,URL,ADVDATE,ISO_3"
 
 
 def request_json(params: dict) -> dict:
@@ -40,7 +40,7 @@ def main():
     # State_name / Map_Label identify named sub-country map areas. Codes 10/20/30
     # are country-context polygons ("contains areas with higher security risk"),
     # not regional risk polygons; omit them from the published overlay.
-    where = "((State_name IS NOT NULL AND State_name <> '') OR (Map_Label IS NOT NULL AND Map_Label <> '')) AND LEVEL_ IN (1,2,3,4)"
+    where = "NAME IS NOT NULL AND NAME <> '' AND LEVEL_ IN (1,2,3,4)"
     features = []
     offset = 0
     while True:
@@ -65,14 +65,15 @@ def main():
         raise ValueError(f"Refusing to publish suspiciously small regional layer ({len(features)} features).")
     peru = [
         feature for feature in features
-        if str((feature.get("properties") or {}).get("ISO_2", "")).upper() == "PE"
+        if str((feature.get("properties") or {}).get("ISO_3", "")).upper() == "PER"
+        and str((feature.get("properties") or {}).get("NAME", "")).strip().lower() != "peru"
     ]
+
     if not peru:
-        raise ValueError("Peru has no regional polygons in the official map layer; refusing to publish.")
-    invalid = [
-        feature for feature in features
-        if not feature.get("geometry") or not (feature.get("properties") or {}).get("ISO_2")
-    ]
+        raise ValueError(
+            "No named sub-country polygons found for Peru (ISO_3=PER). "
+            "Check the official ArcGIS layer records before publishing."
+        )
     if invalid:
         raise ValueError(f"{len(invalid)} regional features have missing geometry or ISO_2.")
 
