@@ -1,0 +1,3459 @@
+{
+  "schemaVersion": 1,
+  "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
+  "fetchedAt": "2026-11-10T22:02:13+00:00",
+  "generatedAt": "2026-11-10 14:00:19",
+  "recordCount": 230,
+  "countries": [
+    {
+      "iso2": "AF",
+      "name": "Afghanistan",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791975710,
+        "date": "2026-10-14 07:01:50",
+        "asp": "2026-10-14T07:01:50.7595549-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "afghanistan",
+      "destinationUrl": "https://travel.gc.ca/destinations/afghanistan"
+    },
+    {
+      "iso2": "AL",
+      "name": "Albania",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792093624,
+        "date": "2026-10-15 15:47:04",
+        "asp": "2026-10-15T15:47:04.0370803-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "albania",
+      "destinationUrl": "https://travel.gc.ca/destinations/albania"
+    },
+    {
+      "iso2": "DZ",
+      "name": "Algeria",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792065900,
+        "date": "2026-10-15 08:05:00",
+        "asp": "2026-10-15T08:05:00.9336104-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "algeria",
+      "destinationUrl": "https://travel.gc.ca/destinations/algeria"
+    },
+    {
+      "iso2": "AS",
+      "name": "American Samoa",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791976577,
+        "date": "2026-10-14 07:16:17",
+        "asp": "2026-10-14T07:16:17.2421449-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "american-samoa",
+      "destinationUrl": "https://travel.gc.ca/destinations/american-samoa"
+    },
+    {
+      "iso2": "AD",
+      "name": "Andorra",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791976746,
+        "date": "2026-10-14 07:19:06",
+        "asp": "2026-10-14T07:19:06.1361068-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "andorra",
+      "destinationUrl": "https://travel.gc.ca/destinations/andorra"
+    },
+    {
+      "iso2": "AO",
+      "name": "Angola",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791975822,
+        "date": "2026-10-14 07:03:42",
+        "asp": "2026-10-14T07:03:42.2847257-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "angola",
+      "destinationUrl": "https://travel.gc.ca/destinations/angola"
+    },
+    {
+      "iso2": "AI",
+      "name": "Anguilla",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791976846,
+        "date": "2026-10-14 07:20:46",
+        "asp": "2026-10-14T07:20:46.5392207-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "anguilla",
+      "destinationUrl": "https://travel.gc.ca/destinations/anguilla"
+    },
+    {
+      "iso2": "AQ",
+      "name": "Antarctica",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791977002,
+        "date": "2026-10-14 07:23:22",
+        "asp": "2026-10-14T07:23:22.9561329-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "antarctica",
+      "destinationUrl": "https://travel.gc.ca/destinations/antarctica"
+    },
+    {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791977071,
+        "date": "2026-10-14 07:24:31",
+        "asp": "2026-10-14T07:24:31.5792948-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "antigua-and-barbuda",
+      "destinationUrl": "https://travel.gc.ca/destinations/antigua-and-barbuda"
+    },
+    {
+      "iso2": "AR",
+      "name": "Argentina",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794314919,
+        "date": "2026-11-10 07:48:39",
+        "asp": "2026-11-10T07:48:39.0077617-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "argentina",
+      "destinationUrl": "https://travel.gc.ca/destinations/argentina"
+    },
+    {
+      "iso2": "AM",
+      "name": "Armenia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791977289,
+        "date": "2026-10-14 07:28:09",
+        "asp": "2026-10-14T07:28:09.2387814-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "armenia",
+      "destinationUrl": "https://travel.gc.ca/destinations/armenia"
+    },
+    {
+      "iso2": "AW",
+      "name": "Aruba",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791976213,
+        "date": "2026-10-14 07:10:13",
+        "asp": "2026-10-14T07:10:13.7900514-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "aruba",
+      "destinationUrl": "https://travel.gc.ca/destinations/aruba"
+    },
+    {
+      "iso2": "AU",
+      "name": "Australia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793620560,
+        "date": "2026-11-02 06:56:00",
+        "asp": "2026-11-02T06:56:00.6760986-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "australia",
+      "destinationUrl": "https://travel.gc.ca/destinations/australia"
+    },
+    {
+      "iso2": "AT",
+      "name": "Austria",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793809015,
+        "date": "2026-11-04 11:16:55",
+        "asp": "2026-11-04T11:16:55.9752482-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "austria",
+      "destinationUrl": "https://travel.gc.ca/destinations/austria"
+    },
+    {
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791978603,
+        "date": "2026-10-14 07:50:03",
+        "asp": "2026-10-14T07:50:03.5194626-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "azerbaijan",
+      "destinationUrl": "https://travel.gc.ca/destinations/azerbaijan"
+    },
+    {
+      "iso2": null,
+      "name": "Azores",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793889218,
+        "date": "2026-11-05 09:33:38",
+        "asp": "2026-11-05T09:33:38.4963367-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "azores",
+      "destinationUrl": "https://travel.gc.ca/destinations/azores"
+    },
+    {
+      "iso2": "BS",
+      "name": "Bahamas",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791922294,
+        "date": "2026-10-13 16:11:34",
+        "asp": "2026-10-13T16:11:34.9748393-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "bahamas",
+      "destinationUrl": "https://travel.gc.ca/destinations/bahamas"
+    },
+    {
+      "iso2": "BH",
+      "name": "Bahrain",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793367355,
+        "date": "2026-10-30 09:35:55",
+        "asp": "2026-10-30T09:35:55.760604-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "bahrain",
+      "destinationUrl": "https://travel.gc.ca/destinations/bahrain"
+    },
+    {
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793040971,
+        "date": "2026-10-26 14:56:11",
+        "asp": "2026-10-26T14:56:11.9171938-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "bangladesh",
+      "destinationUrl": "https://travel.gc.ca/destinations/bangladesh"
+    },
+    {
+      "iso2": "BB",
+      "name": "Barbados",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792495436,
+        "date": "2026-10-20 07:23:56",
+        "asp": "2026-10-20T07:23:56.4633809-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "barbados",
+      "destinationUrl": "https://travel.gc.ca/destinations/barbados"
+    },
+    {
+      "iso2": "BY",
+      "name": "Belarus",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793017697,
+        "date": "2026-10-26 08:28:17",
+        "asp": "2026-10-26T08:28:17.3832083-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "belarus",
+      "destinationUrl": "https://travel.gc.ca/destinations/belarus"
+    },
+    {
+      "iso2": "BE",
+      "name": "Belgium",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793018930,
+        "date": "2026-10-26 08:48:50",
+        "asp": "2026-10-26T08:48:50.581418-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "belgium",
+      "destinationUrl": "https://travel.gc.ca/destinations/belgium"
+    },
+    {
+      "iso2": "BZ",
+      "name": "Belize",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793797082,
+        "date": "2026-11-04 07:58:02",
+        "asp": "2026-11-04T07:58:02.8671464-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "belize",
+      "destinationUrl": "https://travel.gc.ca/destinations/belize"
+    },
+    {
+      "iso2": "BJ",
+      "name": "Benin",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793622462,
+        "date": "2026-11-02 07:27:42",
+        "asp": "2026-11-02T07:27:42.3877101-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "benin",
+      "destinationUrl": "https://travel.gc.ca/destinations/benin"
+    },
+    {
+      "iso2": "BM",
+      "name": "Bermuda",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793796225,
+        "date": "2026-11-04 07:43:45",
+        "asp": "2026-11-04T07:43:45.4970108-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "bermuda",
+      "destinationUrl": "https://travel.gc.ca/destinations/bermuda"
+    },
+    {
+      "iso2": "BT",
+      "name": "Bhutan",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791980657,
+        "date": "2026-10-14 08:24:17",
+        "asp": "2026-10-14T08:24:17.662467-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "bhutan",
+      "destinationUrl": "https://travel.gc.ca/destinations/bhutan"
+    },
+    {
+      "iso2": "BO",
+      "name": "Bolivia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791980900,
+        "date": "2026-10-14 08:28:20",
+        "asp": "2026-10-14T08:28:20.9521141-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "bolivia",
+      "destinationUrl": "https://travel.gc.ca/destinations/bolivia"
+    },
+    {
+      "iso2": "BQ",
+      "name": "Bonaire",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791981064,
+        "date": "2026-10-14 08:31:04",
+        "asp": "2026-10-14T08:31:04.2906687-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "bonaire",
+      "destinationUrl": "https://travel.gc.ca/destinations/bonaire"
+    },
+    {
+      "iso2": "BA",
+      "name": "Bosnia and Herzegovina",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793019459,
+        "date": "2026-10-26 08:57:39",
+        "asp": "2026-10-26T08:57:39.0658341-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "bosnia-and-herzegovina",
+      "destinationUrl": "https://travel.gc.ca/destinations/bosnia-and-herzegovina"
+    },
+    {
+      "iso2": "BW",
+      "name": "Botswana",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791981171,
+        "date": "2026-10-14 08:32:51",
+        "asp": "2026-10-14T08:32:51.990656-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "botswana",
+      "destinationUrl": "https://travel.gc.ca/destinations/botswana"
+    },
+    {
+      "iso2": "BR",
+      "name": "Brazil",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793031142,
+        "date": "2026-10-26 12:12:22",
+        "asp": "2026-10-26T12:12:22.3532564-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "brazil",
+      "destinationUrl": "https://travel.gc.ca/destinations/brazil"
+    },
+    {
+      "iso2": "VG",
+      "name": "British Virgin Islands",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793365165,
+        "date": "2026-10-30 08:59:25",
+        "asp": "2026-10-30T08:59:25.3402905-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "british-virgin-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/british-virgin-islands"
+    },
+    {
+      "iso2": "BN",
+      "name": "Brunei",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791981433,
+        "date": "2026-10-14 08:37:13",
+        "asp": "2026-10-14T08:37:13.4672022-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "brunei",
+      "destinationUrl": "https://travel.gc.ca/destinations/brunei"
+    },
+    {
+      "iso2": "BG",
+      "name": "Bulgaria",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793632213,
+        "date": "2026-11-02 10:10:13",
+        "asp": "2026-11-02T10:10:13.5475581-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "bulgaria",
+      "destinationUrl": "https://travel.gc.ca/destinations/bulgaria"
+    },
+    {
+      "iso2": "BF",
+      "name": "Burkina Faso",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791982163,
+        "date": "2026-10-14 08:49:23",
+        "asp": "2026-10-14T08:49:23.7896155-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "burkina-faso",
+      "destinationUrl": "https://travel.gc.ca/destinations/burkina-faso"
+    },
+    {
+      "iso2": "BI",
+      "name": "Burundi",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "burundi",
+      "destinationUrl": "https://travel.gc.ca/destinations/burundi"
+    },
+    {
+      "iso2": "CV",
+      "name": "Cabo Verde",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "cabo-verde",
+      "destinationUrl": "https://travel.gc.ca/destinations/cabo-verde"
+    },
+    {
+      "iso2": "KH",
+      "name": "Cambodia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791982389,
+        "date": "2026-10-14 08:53:09",
+        "asp": "2026-10-14T08:53:09.8297366-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "cambodia",
+      "destinationUrl": "https://travel.gc.ca/destinations/cambodia"
+    },
+    {
+      "iso2": "CM",
+      "name": "Cameroon",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983154,
+        "date": "2026-10-14 09:05:54",
+        "asp": "2026-10-14T09:05:54.5730832-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "cameroon",
+      "destinationUrl": "https://travel.gc.ca/destinations/cameroon"
+    },
+    {
+      "iso2": "IC",
+      "name": "Canary Islands",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.9698614-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "canary-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/canary-islands"
+    },
+    {
+      "iso2": "KY",
+      "name": "Cayman Islands",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "cayman-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/cayman-islands"
+    },
+    {
+      "iso2": "CF",
+      "name": "Central African Republic",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983400,
+        "date": "2026-10-14 09:10:00",
+        "asp": "2026-10-14T09:10:00.7693106-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "central-african-republic",
+      "destinationUrl": "https://travel.gc.ca/destinations/central-african-republic"
+    },
+    {
+      "iso2": "TD",
+      "name": "Chad",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793630331,
+        "date": "2026-11-02 09:38:51",
+        "asp": "2026-11-02T09:38:51.940000-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "chad",
+      "destinationUrl": "https://travel.gc.ca/destinations/chad"
+    },
+    {
+      "iso2": "CL",
+      "name": "Chile",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792423712,
+        "date": "2026-10-19 11:28:32",
+        "asp": "2026-10-19T11:28:32.0965742-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "chile",
+      "destinationUrl": "https://travel.gc.ca/destinations/chile"
+    },
+    {
+      "iso2": "CN",
+      "name": "China",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793726826,
+        "date": "2026-11-03 12:27:06",
+        "asp": "2026-11-03T12:27:06.2000402-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "china",
+      "destinationUrl": "https://travel.gc.ca/destinations/china"
+    },
+    {
+      "iso2": "CO",
+      "name": "Colombia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793633565,
+        "date": "2026-11-02 10:32:45",
+        "asp": "2026-11-02T10:32:45.220000-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "colombia",
+      "destinationUrl": "https://travel.gc.ca/destinations/colombia"
+    },
+    {
+      "iso2": "KM",
+      "name": "Comoros",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "comoros",
+      "destinationUrl": "https://travel.gc.ca/destinations/comoros"
+    },
+    {
+      "iso2": "CK",
+      "name": "Cook Islands",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791984474,
+        "date": "2026-10-14 09:27:54",
+        "asp": "2026-10-14T09:27:54.1477305-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "cook-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/cook-islands"
+    },
+    {
+      "iso2": "CR",
+      "name": "Costa Rica",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791979900,
+        "date": "2026-10-14 08:11:40",
+        "asp": "2026-10-14T08:11:40.9810715-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "costa-rica",
+      "destinationUrl": "https://travel.gc.ca/destinations/costa-rica"
+    },
+    {
+      "iso2": "CI",
+      "name": "Côte d'Ivoire (Ivory Coast)",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793633663,
+        "date": "2026-11-02 10:34:23",
+        "asp": "2026-11-02T10:34:23.870000-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "cote-d-ivoire-ivory-coast",
+      "destinationUrl": "https://travel.gc.ca/destinations/cote-d-ivoire-ivory-coast"
+    },
+    {
+      "iso2": "HR",
+      "name": "Croatia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791201974,
+        "date": "2026-10-05 08:06:14",
+        "asp": "2026-10-05T08:06:14.5744636-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "croatia",
+      "destinationUrl": "https://travel.gc.ca/destinations/croatia"
+    },
+    {
+      "iso2": "CU",
+      "name": "Cuba",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791904451,
+        "date": "2026-10-13 11:14:11",
+        "asp": "2026-10-13T11:14:11.830000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "cuba",
+      "destinationUrl": "https://travel.gc.ca/destinations/cuba"
+    },
+    {
+      "iso2": "CW",
+      "name": "Curaçao",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793740912,
+        "date": "2026-11-03 16:21:52",
+        "asp": "2026-11-03T16:21:52.8489001-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "curacao",
+      "destinationUrl": "https://travel.gc.ca/destinations/curacao"
+    },
+    {
+      "iso2": "CY",
+      "name": "Cyprus",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790706058,
+        "date": "2026-09-29 14:20:58",
+        "asp": "2026-09-29T14:20:58.2799973-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "cyprus",
+      "destinationUrl": "https://travel.gc.ca/destinations/cyprus"
+    },
+    {
+      "iso2": "CZ",
+      "name": "Czechia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983155,
+        "date": "2026-10-14 09:05:55",
+        "asp": "2026-10-14T09:05:55.130000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "czechia",
+      "destinationUrl": "https://travel.gc.ca/destinations/czechia"
+    },
+    {
+      "iso2": "CD",
+      "name": "Democratic Republic of Congo (Kinshasa)",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793629906,
+        "date": "2026-11-02 09:31:46",
+        "asp": "2026-11-02T09:31:46.360000-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "congo-kinshasa",
+      "destinationUrl": "https://travel.gc.ca/destinations/congo-kinshasa"
+    },
+    {
+      "iso2": "DK",
+      "name": "Denmark",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791882415,
+        "date": "2026-10-13 05:06:55",
+        "asp": "2026-10-13T05:06:55.4047575-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "denmark",
+      "destinationUrl": "https://travel.gc.ca/destinations/denmark"
+    },
+    {
+      "iso2": "DJ",
+      "name": "Djibouti",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791986055,
+        "date": "2026-10-14 09:54:15",
+        "asp": "2026-10-14T09:54:15.5509932-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "djibouti",
+      "destinationUrl": "https://travel.gc.ca/destinations/djibouti"
+    },
+    {
+      "iso2": "DM",
+      "name": "Dominica",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "dominica",
+      "destinationUrl": "https://travel.gc.ca/destinations/dominica"
+    },
+    {
+      "iso2": "DO",
+      "name": "Dominican Republic",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791554123,
+        "date": "2026-10-09 09:55:23",
+        "asp": "2026-10-09T09:55:23.2342338-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "dominican-republic",
+      "destinationUrl": "https://travel.gc.ca/destinations/dominican-republic"
+    },
+    {
+      "iso2": "EC",
+      "name": "Ecuador",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794254314,
+        "date": "2026-11-09 14:58:34",
+        "asp": "2026-11-09T14:58:34.8084885-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "ecuador",
+      "destinationUrl": "https://travel.gc.ca/destinations/ecuador"
+    },
+    {
+      "iso2": "EG",
+      "name": "Egypt",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983771,
+        "date": "2026-10-14 09:16:11",
+        "asp": "2026-10-14T09:16:11.770000-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "egypt",
+      "destinationUrl": "https://travel.gc.ca/destinations/egypt"
+    },
+    {
+      "iso2": "SV",
+      "name": "El Salvador",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794238709,
+        "date": "2026-11-09 10:38:29",
+        "asp": "2026-11-09T10:38:29.6758932-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "el-salvador",
+      "destinationUrl": "https://travel.gc.ca/destinations/el-salvador"
+    },
+    {
+      "iso2": "GQ",
+      "name": "Equatorial Guinea",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "equatorial-guinea",
+      "destinationUrl": "https://travel.gc.ca/destinations/equatorial-guinea"
+    },
+    {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792589117,
+        "date": "2026-10-21 09:25:17",
+        "asp": "2026-10-21T09:25:17.7993573-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "eritrea",
+      "destinationUrl": "https://travel.gc.ca/destinations/eritrea"
+    },
+    {
+      "iso2": "EE",
+      "name": "Estonia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983155,
+        "date": "2026-10-14 09:05:55",
+        "asp": "2026-10-14T09:05:55.130000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "estonia",
+      "destinationUrl": "https://travel.gc.ca/destinations/estonia"
+    },
+    {
+      "iso2": "SZ",
+      "name": "Swaziland",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792007482,
+        "date": "2026-10-14 15:51:22",
+        "asp": "2026-10-14T15:51:22.2375746-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "eswatini",
+      "destinationUrl": "https://travel.gc.ca/destinations/eswatini"
+    },
+    {
+      "iso2": "ET",
+      "name": "Ethiopia",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793302816,
+        "date": "2026-10-29 15:40:16",
+        "asp": "2026-10-29T15:40:16.6535291-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "ethiopia",
+      "destinationUrl": "https://travel.gc.ca/destinations/ethiopia"
+    },
+    {
+      "iso2": "FK",
+      "name": "Falkland Islands",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "falkland-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/falkland-islands"
+    },
+    {
+      "iso2": "FJ",
+      "name": "Fiji",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794313023,
+        "date": "2026-11-10 07:17:03",
+        "asp": "2026-11-10T07:17:03.9692918-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "fiji",
+      "destinationUrl": "https://travel.gc.ca/destinations/fiji"
+    },
+    {
+      "iso2": "FI",
+      "name": "Finland",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "finland",
+      "destinationUrl": "https://travel.gc.ca/destinations/finland"
+    },
+    {
+      "iso2": "FR",
+      "name": "France",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793998558,
+        "date": "2026-11-06 15:55:58",
+        "asp": "2026-11-06T15:55:58.8328828-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "france",
+      "destinationUrl": "https://travel.gc.ca/destinations/france"
+    },
+    {
+      "iso2": "GF",
+      "name": "French Guiana",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792052296,
+        "date": "2026-10-15 04:18:16",
+        "asp": "2026-10-15T04:18:16.0900482-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "french-guiana",
+      "destinationUrl": "https://travel.gc.ca/destinations/french-guiana"
+    },
+    {
+      "iso2": "PF",
+      "name": "French Polynesia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792052496,
+        "date": "2026-10-15 04:21:36",
+        "asp": "2026-10-15T04:21:36.9975132-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "french-polynesia",
+      "destinationUrl": "https://travel.gc.ca/destinations/french-polynesia"
+    },
+    {
+      "iso2": "GA",
+      "name": "Gabon",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792052993,
+        "date": "2026-10-15 04:29:53",
+        "asp": "2026-10-15T04:29:53.6709807-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "gabon",
+      "destinationUrl": "https://travel.gc.ca/destinations/gabon"
+    },
+    {
+      "iso2": "GM",
+      "name": "Gambia, The",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791922383,
+        "date": "2026-10-13 16:13:03",
+        "asp": "2026-10-13T16:13:03.3172337-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "gambia-the",
+      "destinationUrl": "https://travel.gc.ca/destinations/gambia-the"
+    },
+    {
+      "iso2": "GE",
+      "name": "Georgia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790263195,
+        "date": "2026-09-24 11:19:55",
+        "asp": "2026-09-24T11:19:55.1136449-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "georgia",
+      "destinationUrl": "https://travel.gc.ca/destinations/georgia"
+    },
+    {
+      "iso2": "DE",
+      "name": "Germany",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791552552,
+        "date": "2026-10-09 09:29:12",
+        "asp": "2026-10-09T09:29:12.3169865-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "germany",
+      "destinationUrl": "https://travel.gc.ca/destinations/germany"
+    },
+    {
+      "iso2": "GH",
+      "name": "Ghana",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793633627,
+        "date": "2026-11-02 10:33:47",
+        "asp": "2026-11-02T10:33:47.800000-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "ghana",
+      "destinationUrl": "https://travel.gc.ca/destinations/ghana"
+    },
+    {
+      "iso2": "GI",
+      "name": "Gibraltar",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791906040,
+        "date": "2026-10-13 11:40:40",
+        "asp": "2026-10-13T11:40:40.5061391-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "gibraltar",
+      "destinationUrl": "https://travel.gc.ca/destinations/gibraltar"
+    },
+    {
+      "iso2": "GR",
+      "name": "Greece",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791554230,
+        "date": "2026-10-09 09:57:10",
+        "asp": "2026-10-09T09:57:10.0905876-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "greece",
+      "destinationUrl": "https://travel.gc.ca/destinations/greece"
+    },
+    {
+      "iso2": "GL",
+      "name": "Greenland",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791913081,
+        "date": "2026-10-13 13:38:01",
+        "asp": "2026-10-13T13:38:01.926434-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "greenland",
+      "destinationUrl": "https://travel.gc.ca/destinations/greenland"
+    },
+    {
+      "iso2": "GD",
+      "name": "Grenada",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791913271,
+        "date": "2026-10-13 13:41:11",
+        "asp": "2026-10-13T13:41:11.2328097-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "grenada",
+      "destinationUrl": "https://travel.gc.ca/destinations/grenada"
+    },
+    {
+      "iso2": "GP",
+      "name": "Guadeloupe",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793631734,
+        "date": "2026-11-02 10:02:14",
+        "asp": "2026-11-02T10:02:14.9357633-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "guadeloupe",
+      "destinationUrl": "https://travel.gc.ca/destinations/guadeloupe"
+    },
+    {
+      "iso2": "GU",
+      "name": "Guam",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792329913,
+        "date": "2026-10-18 09:25:13",
+        "asp": "2026-10-18T09:25:13.9160532-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "guam",
+      "destinationUrl": "https://travel.gc.ca/destinations/guam"
+    },
+    {
+      "iso2": "GT",
+      "name": "Guatemala",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793970186,
+        "date": "2026-11-06 08:03:06",
+        "asp": "2026-11-06T08:03:06.3481373-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "guatemala",
+      "destinationUrl": "https://travel.gc.ca/destinations/guatemala"
+    },
+    {
+      "iso2": "GN",
+      "name": "Guinea",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791913785,
+        "date": "2026-10-13 13:49:45",
+        "asp": "2026-10-13T13:49:45.6556136-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "guinea",
+      "destinationUrl": "https://travel.gc.ca/destinations/guinea"
+    },
+    {
+      "iso2": "GW",
+      "name": "Guinea-Bissau",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791913946,
+        "date": "2026-10-13 13:52:26",
+        "asp": "2026-10-13T13:52:26.9754208-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "guinea-bissau",
+      "destinationUrl": "https://travel.gc.ca/destinations/guinea-bissau"
+    },
+    {
+      "iso2": "GY",
+      "name": "Guyana",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794324257,
+        "date": "2026-11-10 10:24:17",
+        "asp": "2026-11-10T10:24:17.2269605-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "guyana",
+      "destinationUrl": "https://travel.gc.ca/destinations/guyana"
+    },
+    {
+      "iso2": "HT",
+      "name": "Haiti",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793361518,
+        "date": "2026-10-30 07:58:38",
+        "asp": "2026-10-30T07:58:38.9615774-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "haiti",
+      "destinationUrl": "https://travel.gc.ca/destinations/haiti"
+    },
+    {
+      "iso2": "HN",
+      "name": "Honduras",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792768419,
+        "date": "2026-10-23 11:13:39",
+        "asp": "2026-10-23T11:13:39.530127-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "honduras",
+      "destinationUrl": "https://travel.gc.ca/destinations/honduras"
+    },
+    {
+      "iso2": "HK",
+      "name": "Hong Kong",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792004227,
+        "date": "2026-10-14 14:57:07",
+        "asp": "2026-10-14T14:57:07.6760601-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "hong-kong",
+      "destinationUrl": "https://travel.gc.ca/destinations/hong-kong"
+    },
+    {
+      "iso2": "HU",
+      "name": "Hungary",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794314268,
+        "date": "2026-11-10 07:37:48",
+        "asp": "2026-11-10T07:37:48.3649567-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "hungary",
+      "destinationUrl": "https://travel.gc.ca/destinations/hungary"
+    },
+    {
+      "iso2": "IS",
+      "name": "Iceland",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254414,
+        "date": "2026-09-24 08:53:34",
+        "asp": "2026-09-24T08:53:34.2418095-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "iceland",
+      "destinationUrl": "https://travel.gc.ca/destinations/iceland"
+    },
+    {
+      "iso2": "IN",
+      "name": "India",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793971484,
+        "date": "2026-11-06 08:24:44",
+        "asp": "2026-11-06T08:24:44.5874371-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "india",
+      "destinationUrl": "https://travel.gc.ca/destinations/india"
+    },
+    {
+      "iso2": "ID",
+      "name": "Indonesia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793827443,
+        "date": "2026-11-04 16:24:03",
+        "asp": "2026-11-04T16:24:03.2977015-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "indonesia",
+      "destinationUrl": "https://travel.gc.ca/destinations/indonesia"
+    },
+    {
+      "iso2": "IR",
+      "name": "Iran",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791915908,
+        "date": "2026-10-13 14:25:08",
+        "asp": "2026-10-13T14:25:08.5957419-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "iran",
+      "destinationUrl": "https://travel.gc.ca/destinations/iran"
+    },
+    {
+      "iso2": "IQ",
+      "name": "Iraq",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791293488,
+        "date": "2026-10-06 09:31:28",
+        "asp": "2026-10-06T09:31:28.6364465-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "iraq",
+      "destinationUrl": "https://travel.gc.ca/destinations/iraq"
+    },
+    {
+      "iso2": "IE",
+      "name": "Ireland",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793998582,
+        "date": "2026-11-06 15:56:22",
+        "asp": "2026-11-06T15:56:22.3167839-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "ireland",
+      "destinationUrl": "https://travel.gc.ca/destinations/ireland"
+    },
+    {
+      "iso2": "IL",
+      "name": "Israel and Palestine",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254414,
+        "date": "2026-09-24 08:53:34",
+        "asp": "2026-09-24T08:53:34.319929-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "israel-and-palestine",
+      "destinationUrl": "https://travel.gc.ca/destinations/israel-and-palestine"
+    },
+    {
+      "iso2": "IT",
+      "name": "Italy",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793104211,
+        "date": "2026-10-27 08:30:11",
+        "asp": "2026-10-27T08:30:11.5024352-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "italy",
+      "destinationUrl": "https://travel.gc.ca/destinations/italy"
+    },
+    {
+      "iso2": "JM",
+      "name": "Jamaica",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791375396,
+        "date": "2026-10-07 08:16:36",
+        "asp": "2026-10-07T08:16:36.7446883-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "jamaica",
+      "destinationUrl": "https://travel.gc.ca/destinations/jamaica"
+    },
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793025557,
+        "date": "2026-10-26 10:39:17",
+        "asp": "2026-10-26T10:39:17.3585798-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "japan",
+      "destinationUrl": "https://travel.gc.ca/destinations/japan"
+    },
+    {
+      "iso2": "JO",
+      "name": "Jordan",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793213329,
+        "date": "2026-10-28 14:48:49",
+        "asp": "2026-10-28T14:48:49.4614694-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "jordan",
+      "destinationUrl": "https://travel.gc.ca/destinations/jordan"
+    },
+    {
+      "iso2": "KZ",
+      "name": "Kazakhstan",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792053215,
+        "date": "2026-10-15 04:33:35",
+        "asp": "2026-10-15T04:33:35.8173395-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "kazakhstan",
+      "destinationUrl": "https://travel.gc.ca/destinations/kazakhstan"
+    },
+    {
+      "iso2": "KE",
+      "name": "Kenya",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793630490,
+        "date": "2026-11-02 09:41:30",
+        "asp": "2026-11-02T09:41:30.360000-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "kenya",
+      "destinationUrl": "https://travel.gc.ca/destinations/kenya"
+    },
+    {
+      "iso2": "KI",
+      "name": "Kiribati",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792053501,
+        "date": "2026-10-15 04:38:21",
+        "asp": "2026-10-15T04:38:21.6711177-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "kiribati",
+      "destinationUrl": "https://travel.gc.ca/destinations/kiribati"
+    },
+    {
+      "iso2": "XK",
+      "name": "Kosovo",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254414,
+        "date": "2026-09-24 08:53:34",
+        "asp": "2026-09-24T08:53:34.4761779-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "kosovo",
+      "destinationUrl": "https://travel.gc.ca/destinations/kosovo"
+    },
+    {
+      "iso2": "KW",
+      "name": "Kuwait",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793015816,
+        "date": "2026-10-26 07:56:56",
+        "asp": "2026-10-26T07:56:56.9845748-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "kuwait",
+      "destinationUrl": "https://travel.gc.ca/destinations/kuwait"
+    },
+    {
+      "iso2": "KG",
+      "name": "Kyrgyzstan",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792053988,
+        "date": "2026-10-15 04:46:28",
+        "asp": "2026-10-15T04:46:28.3910119-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "kyrgyzstan",
+      "destinationUrl": "https://travel.gc.ca/destinations/kyrgyzstan"
+    },
+    {
+      "iso2": "LA",
+      "name": "Laos",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792054408,
+        "date": "2026-10-15 04:53:28",
+        "asp": "2026-10-15T04:53:28.3633183-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "laos",
+      "destinationUrl": "https://travel.gc.ca/destinations/laos"
+    },
+    {
+      "iso2": "LV",
+      "name": "Latvia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983155,
+        "date": "2026-10-14 09:05:55",
+        "asp": "2026-10-14T09:05:55.130000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "latvia",
+      "destinationUrl": "https://travel.gc.ca/destinations/latvia"
+    },
+    {
+      "iso2": "LB",
+      "name": "Lebanon",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793881621,
+        "date": "2026-11-05 07:27:01",
+        "asp": "2026-11-05T07:27:01.2298124-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "lebanon",
+      "destinationUrl": "https://travel.gc.ca/destinations/lebanon"
+    },
+    {
+      "iso2": "LS",
+      "name": "Lesotho",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792054773,
+        "date": "2026-10-15 04:59:33",
+        "asp": "2026-10-15T04:59:33.2277688-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "lesotho",
+      "destinationUrl": "https://travel.gc.ca/destinations/lesotho"
+    },
+    {
+      "iso2": "LR",
+      "name": "Liberia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792054930,
+        "date": "2026-10-15 05:02:10",
+        "asp": "2026-10-15T05:02:10.7068279-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "liberia",
+      "destinationUrl": "https://travel.gc.ca/destinations/liberia"
+    },
+    {
+      "iso2": "LY",
+      "name": "Libya",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791293608,
+        "date": "2026-10-06 09:33:28",
+        "asp": "2026-10-06T09:33:28.3829043-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "libya",
+      "destinationUrl": "https://travel.gc.ca/destinations/libya"
+    },
+    {
+      "iso2": "LI",
+      "name": "Liechtenstein",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254414,
+        "date": "2026-09-24 08:53:34",
+        "asp": "2026-09-24T08:53:34.5855465-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "liechtenstein",
+      "destinationUrl": "https://travel.gc.ca/destinations/liechtenstein"
+    },
+    {
+      "iso2": "LT",
+      "name": "Lithuania",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791989459,
+        "date": "2026-10-14 10:50:59",
+        "asp": "2026-10-14T10:50:59.6082999-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "lithuania",
+      "destinationUrl": "https://travel.gc.ca/destinations/lithuania"
+    },
+    {
+      "iso2": "LU",
+      "name": "Luxembourg",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791554928,
+        "date": "2026-10-09 10:08:48",
+        "asp": "2026-10-09T10:08:48.9881911-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "luxembourg",
+      "destinationUrl": "https://travel.gc.ca/destinations/luxembourg"
+    },
+    {
+      "iso2": "MO",
+      "name": "Macao",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791541078,
+        "date": "2026-10-09 06:17:58",
+        "asp": "2026-10-09T06:17:58.8776434-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "macao",
+      "destinationUrl": "https://travel.gc.ca/destinations/macao"
+    },
+    {
+      "iso2": "MG",
+      "name": "Madagascar",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791903522,
+        "date": "2026-10-13 10:58:42",
+        "asp": "2026-10-13T10:58:42.210000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "madagascar",
+      "destinationUrl": "https://travel.gc.ca/destinations/madagascar"
+    },
+    {
+      "iso2": "MW",
+      "name": "Malawi",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791988320,
+        "date": "2026-10-14 10:32:00",
+        "asp": "2026-10-14T10:32:00.3759814-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "malawi",
+      "destinationUrl": "https://travel.gc.ca/destinations/malawi"
+    },
+    {
+      "iso2": "MY",
+      "name": "Malaysia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791555036,
+        "date": "2026-10-09 10:10:36",
+        "asp": "2026-10-09T10:10:36.7991886-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "malaysia",
+      "destinationUrl": "https://travel.gc.ca/destinations/malaysia"
+    },
+    {
+      "iso2": "MV",
+      "name": "Maldives",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791543539,
+        "date": "2026-10-09 06:58:59",
+        "asp": "2026-10-09T06:58:59.8705771-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "maldives",
+      "destinationUrl": "https://travel.gc.ca/destinations/maldives"
+    },
+    {
+      "iso2": "ML",
+      "name": "Mali",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791555305,
+        "date": "2026-10-09 10:15:05",
+        "asp": "2026-10-09T10:15:05.2442522-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "mali",
+      "destinationUrl": "https://travel.gc.ca/destinations/mali"
+    },
+    {
+      "iso2": "MT",
+      "name": "Malta",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791544294,
+        "date": "2026-10-09 07:11:34",
+        "asp": "2026-10-09T07:11:34.8184078-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "malta",
+      "destinationUrl": "https://travel.gc.ca/destinations/malta"
+    },
+    {
+      "iso2": "MH",
+      "name": "Marshall Islands",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791544457,
+        "date": "2026-10-09 07:14:17",
+        "asp": "2026-10-09T07:14:17.2661166-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "marshall-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/marshall-islands"
+    },
+    {
+      "iso2": "MQ",
+      "name": "Martinique",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791544854,
+        "date": "2026-10-09 07:20:54",
+        "asp": "2026-10-09T07:20:54.8924035-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "martinique",
+      "destinationUrl": "https://travel.gc.ca/destinations/martinique"
+    },
+    {
+      "iso2": "MR",
+      "name": "Mauritania",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792514806,
+        "date": "2026-10-20 12:46:46",
+        "asp": "2026-10-20T12:46:46.9788338-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "mauritania",
+      "destinationUrl": "https://travel.gc.ca/destinations/mauritania"
+    },
+    {
+      "iso2": "MU",
+      "name": "Mauritius",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793718774,
+        "date": "2026-11-03 10:12:54",
+        "asp": "2026-11-03T10:12:54.6302022-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "mauritius",
+      "destinationUrl": "https://travel.gc.ca/destinations/mauritius"
+    },
+    {
+      "iso2": "YT",
+      "name": "Mayotte",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791545912,
+        "date": "2026-10-09 07:38:32",
+        "asp": "2026-10-09T07:38:32.2006291-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "mayotte",
+      "destinationUrl": "https://travel.gc.ca/destinations/mayotte"
+    },
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794337141,
+        "date": "2026-11-10 13:59:01",
+        "asp": "2026-11-10T13:59:01.1950223-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "mexico",
+      "destinationUrl": "https://travel.gc.ca/destinations/mexico"
+    },
+    {
+      "iso2": "FM",
+      "name": "Micronesia (FSM)",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792007697,
+        "date": "2026-10-14 15:54:57",
+        "asp": "2026-10-14T15:54:57.3298655-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "micronesia-fsm",
+      "destinationUrl": "https://travel.gc.ca/destinations/micronesia-fsm"
+    },
+    {
+      "iso2": "MD",
+      "name": "Moldova",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983155,
+        "date": "2026-10-14 09:05:55",
+        "asp": "2026-10-14T09:05:55.130000-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "moldova",
+      "destinationUrl": "https://travel.gc.ca/destinations/moldova"
+    },
+    {
+      "iso2": "MC",
+      "name": "Monaco",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793631233,
+        "date": "2026-11-02 09:53:53",
+        "asp": "2026-11-02T09:53:53.3121898-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "monaco",
+      "destinationUrl": "https://travel.gc.ca/destinations/monaco"
+    },
+    {
+      "iso2": "MN",
+      "name": "Mongolia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791550347,
+        "date": "2026-10-09 08:52:27",
+        "asp": "2026-10-09T08:52:27.5465057-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "mongolia",
+      "destinationUrl": "https://travel.gc.ca/destinations/mongolia"
+    },
+    {
+      "iso2": "ME",
+      "name": "Montenegro",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791547515,
+        "date": "2026-10-09 08:05:15",
+        "asp": "2026-10-09T08:05:15.8058607-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "montenegro",
+      "destinationUrl": "https://travel.gc.ca/destinations/montenegro"
+    },
+    {
+      "iso2": "MS",
+      "name": "Montserrat",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791547654,
+        "date": "2026-10-09 08:07:34",
+        "asp": "2026-10-09T08:07:34.7059667-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "montserrat",
+      "destinationUrl": "https://travel.gc.ca/destinations/montserrat"
+    },
+    {
+      "iso2": "MA",
+      "name": "Morocco",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791555362,
+        "date": "2026-10-09 10:16:02",
+        "asp": "2026-10-09T10:16:02.0100696-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "morocco",
+      "destinationUrl": "https://travel.gc.ca/destinations/morocco"
+    },
+    {
+      "iso2": "MZ",
+      "name": "Mozambique",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792055214,
+        "date": "2026-10-15 05:06:54",
+        "asp": "2026-10-15T05:06:54.4329605-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "mozambique",
+      "destinationUrl": "https://travel.gc.ca/destinations/mozambique"
+    },
+    {
+      "iso2": "MM",
+      "name": "Myanmar",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793998208,
+        "date": "2026-11-06 15:50:08",
+        "asp": "2026-11-06T15:50:08.21065-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "myanmar",
+      "destinationUrl": "https://travel.gc.ca/destinations/myanmar"
+    },
+    {
+      "iso2": "NA",
+      "name": "Namibia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792055556,
+        "date": "2026-10-15 05:12:36",
+        "asp": "2026-10-15T05:12:36.4386366-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "namibia",
+      "destinationUrl": "https://travel.gc.ca/destinations/namibia"
+    },
+    {
+      "iso2": "NR",
+      "name": "Nauru",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254414,
+        "date": "2026-09-24 08:53:34",
+        "asp": "2026-09-24T08:53:34.8667882-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "nauru",
+      "destinationUrl": "https://travel.gc.ca/destinations/nauru"
+    },
+    {
+      "iso2": "NP",
+      "name": "Nepal",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793724963,
+        "date": "2026-11-03 11:56:03",
+        "asp": "2026-11-03T11:56:03.8003928-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "nepal",
+      "destinationUrl": "https://travel.gc.ca/destinations/nepal"
+    },
+    {
+      "iso2": "NL",
+      "name": "Netherlands",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791555513,
+        "date": "2026-10-09 10:18:33",
+        "asp": "2026-10-09T10:18:33.7173554-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "netherlands",
+      "destinationUrl": "https://travel.gc.ca/destinations/netherlands"
+    },
+    {
+      "iso2": "NC",
+      "name": "New Caledonia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792057257,
+        "date": "2026-10-15 05:40:57",
+        "asp": "2026-10-15T05:40:57.4361297-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "new-caledonia",
+      "destinationUrl": "https://travel.gc.ca/destinations/new-caledonia"
+    },
+    {
+      "iso2": "NZ",
+      "name": "New Zealand",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792057507,
+        "date": "2026-10-15 05:45:07",
+        "asp": "2026-10-15T05:45:07.1632653-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "new-zealand",
+      "destinationUrl": "https://travel.gc.ca/destinations/new-zealand"
+    },
+    {
+      "iso2": "NI",
+      "name": "Nicaragua",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793632600,
+        "date": "2026-11-02 10:16:40",
+        "asp": "2026-11-02T10:16:40.3641229-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "nicaragua",
+      "destinationUrl": "https://travel.gc.ca/destinations/nicaragua"
+    },
+    {
+      "iso2": "NE",
+      "name": "Niger",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792057609,
+        "date": "2026-10-15 05:46:49",
+        "asp": "2026-10-15T05:46:49.3478368-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "niger",
+      "destinationUrl": "https://travel.gc.ca/destinations/niger"
+    },
+    {
+      "iso2": "NG",
+      "name": "Nigeria",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792590873,
+        "date": "2026-10-21 09:54:33",
+        "asp": "2026-10-21T09:54:33.520000-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "nigeria",
+      "destinationUrl": "https://travel.gc.ca/destinations/nigeria"
+    },
+    {
+      "iso2": "NU",
+      "name": "Niue",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792057990,
+        "date": "2026-10-15 05:53:10",
+        "asp": "2026-10-15T05:53:10.0080856-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "niue",
+      "destinationUrl": "https://travel.gc.ca/destinations/niue"
+    },
+    {
+      "iso2": "KP",
+      "name": "North Korea",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792058217,
+        "date": "2026-10-15 05:56:57",
+        "asp": "2026-10-15T05:56:57.2046847-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "north-korea",
+      "destinationUrl": "https://travel.gc.ca/destinations/north-korea"
+    },
+    {
+      "iso2": "MK",
+      "name": "North Macedonia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983155,
+        "date": "2026-10-14 09:05:55",
+        "asp": "2026-10-14T09:05:55.130000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "north-macedonia",
+      "destinationUrl": "https://travel.gc.ca/destinations/north-macedonia"
+    },
+    {
+      "iso2": "MP",
+      "name": "Northern Marianas",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792058455,
+        "date": "2026-10-15 06:00:55",
+        "asp": "2026-10-15T06:00:55.728885-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "northern-marianas",
+      "destinationUrl": "https://travel.gc.ca/destinations/northern-marianas"
+    },
+    {
+      "iso2": "NO",
+      "name": "Norway",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792408033,
+        "date": "2026-10-19 07:07:13",
+        "asp": "2026-10-19T07:07:13.7668077-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "norway",
+      "destinationUrl": "https://travel.gc.ca/destinations/norway"
+    },
+    {
+      "iso2": "OM",
+      "name": "Oman",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.0074156-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "oman",
+      "destinationUrl": "https://travel.gc.ca/destinations/oman"
+    },
+    {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792423852,
+        "date": "2026-10-19 11:30:52",
+        "asp": "2026-10-19T11:30:52.9524643-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "pakistan",
+      "destinationUrl": "https://travel.gc.ca/destinations/pakistan"
+    },
+    {
+      "iso2": "PW",
+      "name": "Palau",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792059982,
+        "date": "2026-10-15 06:26:22",
+        "asp": "2026-10-15T06:26:22.6376492-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "palau",
+      "destinationUrl": "https://travel.gc.ca/destinations/palau"
+    },
+    {
+      "iso2": "PA",
+      "name": "Panama",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793970231,
+        "date": "2026-11-06 08:03:51",
+        "asp": "2026-11-06T08:03:51.2536026-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "panama",
+      "destinationUrl": "https://travel.gc.ca/destinations/panama"
+    },
+    {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792060357,
+        "date": "2026-10-15 06:32:37",
+        "asp": "2026-10-15T06:32:37.2361196-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "papua-new-guinea",
+      "destinationUrl": "https://travel.gc.ca/destinations/papua-new-guinea"
+    },
+    {
+      "iso2": "PY",
+      "name": "Paraguay",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793915464,
+        "date": "2026-11-05 16:51:04",
+        "asp": "2026-11-05T16:51:04.6363523-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "paraguay",
+      "destinationUrl": "https://travel.gc.ca/destinations/paraguay"
+    },
+    {
+      "iso2": "PE",
+      "name": "Peru",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794001461,
+        "date": "2026-11-06 16:44:21",
+        "asp": "2026-11-06T16:44:21.3046653-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "peru",
+      "destinationUrl": "https://travel.gc.ca/destinations/peru"
+    },
+    {
+      "iso2": "PH",
+      "name": "Philippines",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793276958,
+        "date": "2026-10-29 08:29:18",
+        "asp": "2026-10-29T08:29:18.8090022-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "philippines",
+      "destinationUrl": "https://travel.gc.ca/destinations/philippines"
+    },
+    {
+      "iso2": "PL",
+      "name": "Poland",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983155,
+        "date": "2026-10-14 09:05:55",
+        "asp": "2026-10-14T09:05:55.130000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "poland",
+      "destinationUrl": "https://travel.gc.ca/destinations/poland"
+    },
+    {
+      "iso2": "PT",
+      "name": "Portugal",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791552923,
+        "date": "2026-10-09 09:35:23",
+        "asp": "2026-10-09T09:35:23.8043068-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "portugal",
+      "destinationUrl": "https://travel.gc.ca/destinations/portugal"
+    },
+    {
+      "iso2": "PR",
+      "name": "Puerto Rico",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790964157,
+        "date": "2026-10-02 14:02:37",
+        "asp": "2026-10-02T14:02:37.1723127-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "puerto-rico",
+      "destinationUrl": "https://travel.gc.ca/destinations/puerto-rico"
+    },
+    {
+      "iso2": "QA",
+      "name": "Qatar",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792005437,
+        "date": "2026-10-14 15:17:17",
+        "asp": "2026-10-14T15:17:17.4379046-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "qatar",
+      "destinationUrl": "https://travel.gc.ca/destinations/qatar"
+    },
+    {
+      "iso2": "CG",
+      "name": "Republic of Congo (Brazzaville)",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254413,
+        "date": "2026-09-24 08:53:33",
+        "asp": "2026-09-24T08:53:33.120000-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "congo-brazzaville",
+      "destinationUrl": "https://travel.gc.ca/destinations/congo-brazzaville"
+    },
+    {
+      "iso2": "RE",
+      "name": "Réunion",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.1319962-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "reunion",
+      "destinationUrl": "https://travel.gc.ca/destinations/reunion"
+    },
+    {
+      "iso2": "RO",
+      "name": "Romania",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793016878,
+        "date": "2026-10-26 08:14:38",
+        "asp": "2026-10-26T08:14:38.2817712-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "romania",
+      "destinationUrl": "https://travel.gc.ca/destinations/romania"
+    },
+    {
+      "iso2": "RU",
+      "name": "Russia",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793636801,
+        "date": "2026-11-02 11:26:41",
+        "asp": "2026-11-02T11:26:41.2593577-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "russia",
+      "destinationUrl": "https://travel.gc.ca/destinations/russia"
+    },
+    {
+      "iso2": "RW",
+      "name": "Rwanda",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793357517,
+        "date": "2026-10-30 06:51:57",
+        "asp": "2026-10-30T06:51:57.7788259-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "rwanda",
+      "destinationUrl": "https://travel.gc.ca/destinations/rwanda"
+    },
+    {
+      "iso2": "BL",
+      "name": "Saint-Barthélemy",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.9386055-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "saint-barthelemy",
+      "destinationUrl": "https://travel.gc.ca/destinations/saint-barthelemy"
+    },
+    {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.1632144-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "saint-kitts-and-nevis",
+      "destinationUrl": "https://travel.gc.ca/destinations/saint-kitts-and-nevis"
+    },
+    {
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792089497,
+        "date": "2026-10-15 14:38:17",
+        "asp": "2026-10-15T14:38:17.1743155-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "saint-lucia",
+      "destinationUrl": "https://travel.gc.ca/destinations/saint-lucia"
+    },
+    {
+      "iso2": "MF",
+      "name": "Saint Martin",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.9229823-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "saint-martin",
+      "destinationUrl": "https://travel.gc.ca/destinations/saint-martin"
+    },
+    {
+      "iso2": "PM",
+      "name": "Saint-Pierre-et-Miquelon",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793631906,
+        "date": "2026-11-02 10:05:06",
+        "asp": "2026-11-02T10:05:06.7617257-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "saint-pierre-et-miquelon",
+      "destinationUrl": "https://travel.gc.ca/destinations/saint-pierre-et-miquelon"
+    },
+    {
+      "iso2": "VC",
+      "name": "Saint Vincent & the Grenadines",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.1788412-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "saint-vincent-the-grenadines",
+      "destinationUrl": "https://travel.gc.ca/destinations/saint-vincent-the-grenadines"
+    },
+    {
+      "iso2": "WS",
+      "name": "Samoa",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793630536,
+        "date": "2026-11-02 09:42:16",
+        "asp": "2026-11-02T09:42:16.820000-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "samoa",
+      "destinationUrl": "https://travel.gc.ca/destinations/samoa"
+    },
+    {
+      "iso2": "SM",
+      "name": "San Marino",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.1944643-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "san-marino",
+      "destinationUrl": "https://travel.gc.ca/destinations/san-marino"
+    },
+    {
+      "iso2": "ST",
+      "name": "São Tomé and Principe",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.2100834-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "sao-tome-and-principe",
+      "destinationUrl": "https://travel.gc.ca/destinations/sao-tome-and-principe"
+    },
+    {
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793307471,
+        "date": "2026-10-29 16:57:51",
+        "asp": "2026-10-29T16:57:51.5511363-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "saudi-arabia",
+      "destinationUrl": "https://travel.gc.ca/destinations/saudi-arabia"
+    },
+    {
+      "iso2": "SN",
+      "name": "Senegal",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792066603,
+        "date": "2026-10-15 08:16:43",
+        "asp": "2026-10-15T08:16:43.6801533-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "senegal",
+      "destinationUrl": "https://travel.gc.ca/destinations/senegal"
+    },
+    {
+      "iso2": "RS",
+      "name": "Serbia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793970322,
+        "date": "2026-11-06 08:05:22",
+        "asp": "2026-11-06T08:05:22.0326801-05:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "serbia",
+      "destinationUrl": "https://travel.gc.ca/destinations/serbia"
+    },
+    {
+      "iso2": "SC",
+      "name": "Seychelles",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.2569557-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "seychelles",
+      "destinationUrl": "https://travel.gc.ca/destinations/seychelles"
+    },
+    {
+      "iso2": "SL",
+      "name": "Sierra Leone",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.2725833-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "sierra-leone",
+      "destinationUrl": "https://travel.gc.ca/destinations/sierra-leone"
+    },
+    {
+      "iso2": "SG",
+      "name": "Singapore",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793881676,
+        "date": "2026-11-05 07:27:56",
+        "asp": "2026-11-05T07:27:56.0249721-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "singapore",
+      "destinationUrl": "https://travel.gc.ca/destinations/singapore"
+    },
+    {
+      "iso2": "SX",
+      "name": "Sint Maarten",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.9229823-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "sint-maarten",
+      "destinationUrl": "https://travel.gc.ca/destinations/sint-maarten"
+    },
+    {
+      "iso2": "SK",
+      "name": "Slovakia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791983155,
+        "date": "2026-10-14 09:05:55",
+        "asp": "2026-10-14T09:05:55.130000-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "slovakia",
+      "destinationUrl": "https://travel.gc.ca/destinations/slovakia"
+    },
+    {
+      "iso2": "SI",
+      "name": "Slovenia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.3038281-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "slovenia",
+      "destinationUrl": "https://travel.gc.ca/destinations/slovenia"
+    },
+    {
+      "iso2": "SB",
+      "name": "Solomon Islands",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792067681,
+        "date": "2026-10-15 08:34:41",
+        "asp": "2026-10-15T08:34:41.2563643-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "solomon-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/solomon-islands"
+    },
+    {
+      "iso2": "SO",
+      "name": "Somalia",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792068149,
+        "date": "2026-10-15 08:42:29",
+        "asp": "2026-10-15T08:42:29.5111915-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "somalia",
+      "destinationUrl": "https://travel.gc.ca/destinations/somalia"
+    },
+    {
+      "iso2": "ZA",
+      "name": "South Africa",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1794314843,
+        "date": "2026-11-10 07:47:23",
+        "asp": "2026-11-10T07:47:23.3532199-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "south-africa",
+      "destinationUrl": "https://travel.gc.ca/destinations/south-africa"
+    },
+    {
+      "iso2": "KR",
+      "name": "South Korea",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792068795,
+        "date": "2026-10-15 08:53:15",
+        "asp": "2026-10-15T08:53:15.1134694-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "south-korea",
+      "destinationUrl": "https://travel.gc.ca/destinations/south-korea"
+    },
+    {
+      "iso2": "SS",
+      "name": "South Sudan",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790964157,
+        "date": "2026-10-02 14:02:37",
+        "asp": "2026-10-02T14:02:37.0941911-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "south-sudan",
+      "destinationUrl": "https://travel.gc.ca/destinations/south-sudan"
+    },
+    {
+      "iso2": "ES",
+      "name": "Spain",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793721929,
+        "date": "2026-11-03 11:05:29",
+        "asp": "2026-11-03T11:05:29.7933579-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "spain",
+      "destinationUrl": "https://travel.gc.ca/destinations/spain"
+    },
+    {
+      "iso2": "LK",
+      "name": "Sri Lanka",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793630569,
+        "date": "2026-11-02 09:42:49",
+        "asp": "2026-11-02T09:42:49.720000-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "sri-lanka",
+      "destinationUrl": "https://travel.gc.ca/destinations/sri-lanka"
+    },
+    {
+      "iso2": "SD",
+      "name": "Sudan",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791916227,
+        "date": "2026-10-13 14:30:27",
+        "asp": "2026-10-13T14:30:27.2592229-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "sudan",
+      "destinationUrl": "https://travel.gc.ca/destinations/sudan"
+    },
+    {
+      "iso2": "SR",
+      "name": "Suriname",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791916794,
+        "date": "2026-10-13 14:39:54",
+        "asp": "2026-10-13T14:39:54.071465-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "suriname",
+      "destinationUrl": "https://travel.gc.ca/destinations/suriname"
+    },
+    {
+      "iso2": "SE",
+      "name": "Sweden",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792006012,
+        "date": "2026-10-14 15:26:52",
+        "asp": "2026-10-14T15:26:52.9208763-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "sweden",
+      "destinationUrl": "https://travel.gc.ca/destinations/sweden"
+    },
+    {
+      "iso2": "CH",
+      "name": "Switzerland",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793890951,
+        "date": "2026-11-05 10:02:31",
+        "asp": "2026-11-05T10:02:31.9309784-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "switzerland",
+      "destinationUrl": "https://travel.gc.ca/destinations/switzerland"
+    },
+    {
+      "iso2": "SY",
+      "name": "Syria",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792006549,
+        "date": "2026-10-14 15:35:49",
+        "asp": "2026-10-14T15:35:49.37399-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "syria",
+      "destinationUrl": "https://travel.gc.ca/destinations/syria"
+    },
+    {
+      "iso2": "TW",
+      "name": "Taiwan",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793970295,
+        "date": "2026-11-06 08:04:55",
+        "asp": "2026-11-06T08:04:55.8299911-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "taiwan",
+      "destinationUrl": "https://travel.gc.ca/destinations/taiwan"
+    },
+    {
+      "iso2": "TJ",
+      "name": "Tajikistan",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791999489,
+        "date": "2026-10-14 13:38:09",
+        "asp": "2026-10-14T13:38:09.2844009-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "tajikistan",
+      "destinationUrl": "https://travel.gc.ca/destinations/tajikistan"
+    },
+    {
+      "iso2": "TZ",
+      "name": "Tanzania",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793370601,
+        "date": "2026-10-30 10:30:01",
+        "asp": "2026-10-30T10:30:01.7609453-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "tanzania",
+      "destinationUrl": "https://travel.gc.ca/destinations/tanzania"
+    },
+    {
+      "iso2": "TH",
+      "name": "Thailand",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791923441,
+        "date": "2026-10-13 16:30:41",
+        "asp": "2026-10-13T16:30:41.7863727-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "thailand",
+      "destinationUrl": "https://travel.gc.ca/destinations/thailand"
+    },
+    {
+      "iso2": "TL",
+      "name": "Timor-Leste (East Timor)",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791922219,
+        "date": "2026-10-13 16:10:19",
+        "asp": "2026-10-13T16:10:19.493505-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "timor-leste-east-timor",
+      "destinationUrl": "https://travel.gc.ca/destinations/timor-leste-east-timor"
+    },
+    {
+      "iso2": "TG",
+      "name": "Togo",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791922117,
+        "date": "2026-10-13 16:08:37",
+        "asp": "2026-10-13T16:08:37.7000023-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "togo",
+      "destinationUrl": "https://travel.gc.ca/destinations/togo"
+    },
+    {
+      "iso2": "TK",
+      "name": "Tokelau",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791922033,
+        "date": "2026-10-13 16:07:13",
+        "asp": "2026-10-13T16:07:13.4519731-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "tokelau",
+      "destinationUrl": "https://travel.gc.ca/destinations/tokelau"
+    },
+    {
+      "iso2": "TO",
+      "name": "Tonga",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791921961,
+        "date": "2026-10-13 16:06:01",
+        "asp": "2026-10-13T16:06:01.1573678-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "tonga",
+      "destinationUrl": "https://travel.gc.ca/destinations/tonga"
+    },
+    {
+      "iso2": "TT",
+      "name": "Trinidad and Tobago",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792088208,
+        "date": "2026-10-15 14:16:48",
+        "asp": "2026-10-15T14:16:48.9316535-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "trinidad-and-tobago",
+      "destinationUrl": "https://travel.gc.ca/destinations/trinidad-and-tobago"
+    },
+    {
+      "iso2": "TN",
+      "name": "Tunisia",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792007249,
+        "date": "2026-10-14 15:47:29",
+        "asp": "2026-10-14T15:47:29.3694608-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "tunisia",
+      "destinationUrl": "https://travel.gc.ca/destinations/tunisia"
+    },
+    {
+      "iso2": "TR",
+      "name": "Türkiye",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793190109,
+        "date": "2026-10-28 08:21:49",
+        "asp": "2026-10-28T08:21:49.8628818-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "turkiye",
+      "destinationUrl": "https://travel.gc.ca/destinations/turkiye"
+    },
+    {
+      "iso2": "TM",
+      "name": "Turkmenistan",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791999768,
+        "date": "2026-10-14 13:42:48",
+        "asp": "2026-10-14T13:42:48.0419083-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "turkmenistan",
+      "destinationUrl": "https://travel.gc.ca/destinations/turkmenistan"
+    },
+    {
+      "iso2": "TC",
+      "name": "Turks and Caicos Islands",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793733627,
+        "date": "2026-11-03 14:20:27",
+        "asp": "2026-11-03T14:20:27.2580433-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "turks-and-caicos-islands",
+      "destinationUrl": "https://travel.gc.ca/destinations/turks-and-caicos-islands"
+    },
+    {
+      "iso2": "TV",
+      "name": "Tuvalu",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791921637,
+        "date": "2026-10-13 16:00:37",
+        "asp": "2026-10-13T16:00:37.8858431-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "tuvalu",
+      "destinationUrl": "https://travel.gc.ca/destinations/tuvalu"
+    },
+    {
+      "iso2": "UG",
+      "name": "Uganda",
+      "advisoryState": 2,
+      "advisoryText": "Avoid non-essential travel (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791920058,
+        "date": "2026-10-13 15:34:18",
+        "asp": "2026-10-13T15:34:18.7748976-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "uganda",
+      "destinationUrl": "https://travel.gc.ca/destinations/uganda"
+    },
+    {
+      "iso2": "UA",
+      "name": "Ukraine",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793019438,
+        "date": "2026-10-26 08:57:18",
+        "asp": "2026-10-26T08:57:18.448923-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "ukraine",
+      "destinationUrl": "https://travel.gc.ca/destinations/ukraine"
+    },
+    {
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792006194,
+        "date": "2026-10-14 15:29:54",
+        "asp": "2026-10-14T15:29:54.8833814-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "united-arab-emirates",
+      "destinationUrl": "https://travel.gc.ca/destinations/united-arab-emirates"
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791225192,
+        "date": "2026-10-05 14:33:12",
+        "asp": "2026-10-05T14:33:12.1948964-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "united-kingdom",
+      "destinationUrl": "https://travel.gc.ca/destinations/united-kingdom"
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793641182,
+        "date": "2026-11-02 12:39:42",
+        "asp": "2026-11-02T12:39:42.5763342-05:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "united-states",
+      "destinationUrl": "https://travel.gc.ca/destinations/united-states"
+    },
+    {
+      "iso2": "UY",
+      "name": "Uruguay",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791919739,
+        "date": "2026-10-13 15:28:59",
+        "asp": "2026-10-13T15:28:59.3621324-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "uruguay",
+      "destinationUrl": "https://travel.gc.ca/destinations/uruguay"
+    },
+    {
+      "iso2": "UZ",
+      "name": "Uzbekistan",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1792000555,
+        "date": "2026-10-14 13:55:55",
+        "asp": "2026-10-14T13:55:55.9250471-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "uzbekistan",
+      "destinationUrl": "https://travel.gc.ca/destinations/uzbekistan"
+    },
+    {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791919264,
+        "date": "2026-10-13 15:21:04",
+        "asp": "2026-10-13T15:21:04.0632822-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "vanuatu",
+      "destinationUrl": "https://travel.gc.ca/destinations/vanuatu"
+    },
+    {
+      "iso2": "VE",
+      "name": "Venezuela",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791919180,
+        "date": "2026-10-13 15:19:40",
+        "asp": "2026-10-13T15:19:40.3940984-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "venezuela",
+      "destinationUrl": "https://travel.gc.ca/destinations/venezuela"
+    },
+    {
+      "iso2": "VN",
+      "name": "Vietnam",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1793186282,
+        "date": "2026-10-28 07:18:02",
+        "asp": "2026-10-28T07:18:02.0524619-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "vietnam",
+      "destinationUrl": "https://travel.gc.ca/destinations/vietnam"
+    },
+    {
+      "iso2": "VI",
+      "name": "Virgin Islands (U.S.)",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1790254415,
+        "date": "2026-09-24 08:53:35",
+        "asp": "2026-09-24T08:53:35.7725708-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "virgin-islands-u-s",
+      "destinationUrl": "https://travel.gc.ca/destinations/virgin-islands-u-s"
+    },
+    {
+      "iso2": "YE",
+      "name": "Yemen",
+      "advisoryState": 3,
+      "advisoryText": "Avoid all travel",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791918971,
+        "date": "2026-10-13 15:16:11",
+        "asp": "2026-10-13T15:16:11.1346226-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "yemen",
+      "destinationUrl": "https://travel.gc.ca/destinations/yemen"
+    },
+    {
+      "iso2": "ZM",
+      "name": "Zambia",
+      "advisoryState": 0,
+      "advisoryText": "Exercise normal security precautions (with regional advisories)",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791918791,
+        "date": "2026-10-13 15:13:11",
+        "asp": "2026-10-13T15:13:11.6707858-04:00"
+      },
+      "hasRegionalAdvisory": true,
+      "urlSlug": "zambia",
+      "destinationUrl": "https://travel.gc.ca/destinations/zambia"
+    },
+    {
+      "iso2": "ZW",
+      "name": "Zimbabwe",
+      "advisoryState": 1,
+      "advisoryText": "Exercise a high degree of caution",
+      "dateModified": null,
+      "datePublished": {
+        "timestamp": 1791918691,
+        "date": "2026-10-13 15:11:31",
+        "asp": "2026-10-13T15:11:31.3146413-04:00"
+      },
+      "hasRegionalAdvisory": false,
+      "urlSlug": "zimbabwe",
+      "destinationUrl": "https://travel.gc.ca/destinations/zimbabwe"
+    }
+  ]
+}
