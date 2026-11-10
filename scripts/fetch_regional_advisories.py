@@ -40,7 +40,7 @@ def main():
     # State_name / Map_Label identify named sub-country map areas. Codes 10/20/30
     # are country-context polygons ("contains areas with higher security risk"),
     # not regional risk polygons; omit them from the published overlay.
-    where = "State_name IS NOT NULL AND State_name <> '' AND LEVEL_ IN (1,2,3,4)"
+    where = "((State_name IS NOT NULL AND State_name <> '') OR (Map_Label IS NOT NULL AND Map_Label <> '')) AND LEVEL_ IN (1,2,3,4)"
     features = []
     offset = 0
     while True:
