@@ -145,7 +145,7 @@
       let activeLayer = null;
       const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
       const nameOf = feature => feature.properties.ADMIN || feature.properties.name || feature.properties.NAME || 'Unknown destination';
-      const aliases = { unitedstatesofamerica:'unitedstates', russianfederation:'russia', southkorea:'korea', ivorycoast:'cotedivoire', swaziland:'eswatini', czechrepublic:'czechia', cape verde:'caboverde' };
+      const aliases = { unitedstatesofamerica:'unitedstates', russianfederation:'russia', southkorea:'korea', ivorycoast:'cotedivoire', swaziland:'eswatini', czechrepublic:'czechia', capeverde:'caboverde' };
       function lookupNames(name) { const key = normalize(name); return [key, aliases[key]].filter(Boolean); }
       function countryRecord(feature) { for (const key of lookupNames(nameOf(feature))) if (advisoryByName.has(key)) return advisoryByName.get(key); return null; }
       function getRisk(record) {
