@@ -63,6 +63,25 @@ def main():
 
     if len(features) < 10:
         raise ValueError(f"Refusing to publish suspiciously small regional layer ({len(features)} features).")
+        print("DIAGNOSTIC: Total regional features:", len(features))
+
+    for feature in features[:15]:
+        properties = feature.get("properties") or {}
+        print(
+            "DIAGNOSTIC:",
+            "NAME =", properties.get("NAME"),
+            "| ISO_3 =", properties.get("ISO_3"),
+            "| LEVEL_ =", properties.get("LEVEL_"),
+            "| URL =", properties.get("URL")
+        )
+
+    print(
+        "DIAGNOSTIC: ISO_3 values:",
+        sorted({
+            str((feature.get("properties") or {}).get("ISO_3"))
+            for feature in features
+        })
+    )
     peru = [
         feature for feature in features
         if str((feature.get("properties") or {}).get("ISO_3", "")).upper() == "PER"
