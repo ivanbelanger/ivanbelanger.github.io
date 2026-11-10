@@ -31,14 +31,15 @@ jobs:
 
       - name: Commit updated snapshots
         run: |
-          if git diff --quiet -- data/travel-advisories.json; then
-            echo "No advisory data changes."
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/travel-advisories.json
+
+          if git diff --cached --quiet; then
+            echo "No advisory data changes."
+            exit 0
+          fi
+
           git commit -m "Refresh Government of Canada travel advisories"
           git push
