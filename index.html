@@ -81,9 +81,9 @@
       <div>
         <p class="eyebrow">A Canadian traveller's starting point</p>
         <h1 id="page-title">Know before<br>you go.</h1>
-        <p class="lead">Explore current Government of Canada travel advice by destination. The map shows country-level risk; when an advisory is regional, open the official destination page for Canada's region-specific travel map.</p>
+        <p class="lead">Countries are colour-coded using the official Government of Canada travel advisory data that powers travel.gc.ca. Regional risk details are available on the official destination page.</p>
       </div>
-      <div class="updated">Data source: <strong id="data-status">Loading official advisory data…</strong></div>
+      <div class="updated">Source: <strong id="data-status">Loading travel.gc.ca advisory data…</strong></div>
     </section>
 
     <section class="workspace" aria-label="Explore destination travel advice">
@@ -140,7 +140,7 @@
       let activeLayer = null;
       const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
       const nameOf = feature => feature.properties.ADMIN || feature.properties.name || feature.properties.NAME || 'Unknown destination';
-      const aliases = { 'unitedstatesofamerica':'unitedstates', 'usa':'unitedstates', 'russianfederation':'russia', 'southkorea':'korea', 'northkorea':'koreademocraticpeoplesrepublic', 'ivorycoast':'cotedivoire', 'swaziland':'eswatini', 'czechrepublic':'czechia', 'capeverde':'cabo verde'.replace(/ /g,'') };
+      const aliases = { 'unitedstatesofamerica':'unitedstates', 'usa':'unitedstates', 'russianfederation':'russia', 'southkorea':'korea', 'northkorea':'koreademocraticpeoplesrepublic', 'ivorycoast':'cotedivoire', 'swaziland':'eswatini', 'czechrepublic':'czechia', 'capeverde':'caboverde' };
       function lookupNames(name) { const key = normalize(name); return [key, aliases[key]].filter(Boolean); }
       function countryRecord(feature) { for (const key of lookupNames(nameOf(feature))) if (advisoryByName.has(key)) return advisoryByName.get(key); return null; }
       function getRisk(record) {
@@ -161,7 +161,7 @@
         return { color:'#fff', weight:1, fillColor:risk === null ? '#c8d1cd' : riskColors[risk], fillOpacity:.88 };
       }
       function escapeHtml(value) { return String(value).replace(/[&<>"']/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[char])); }
-      function advisoryUrl(record, name) {
+      function advisoryUrl(record) {
         const candidate = record?.['url-eng'] || record?.eng?.url || record?.['url'];
         if (typeof candidate === 'string' && candidate.startsWith('https://travel.gc.ca/')) return candidate;
         return 'https://travel.gc.ca/destinations';
@@ -176,8 +176,8 @@
         const hasRegional = record && (record['has-regional-advisory'] === 1 || record['has-regional-advisory'] === '1' || record['has-regional-advisory'] === true || record.hasRegionalAdvisory === true);
         const riskLabel = risk === null ? 'Risk level unavailable in data' : riskLabels[risk];
         const date = record?.['date-modified'] || record?.['date-published'] || record?.eng?.['friendly-date'];
-        const url = advisoryUrl(record, name);
-        panel.innerHTML = `<div class="country-detail"><div class="detail-kicker">Selected destination</div><h3>${escapeHtml(name)}</h3><div class="status" ${risk === null ? '' : `data-level="${risk}"`}><span class="status-dot"></span>${escapeHtml(riskLabel)}</div><p>${hasRegional ? 'Canada lists regional advisories for this destination. Open the official destination page to view its region-specific travel map and read the advice for each area.' : 'Review the complete official destination advice, including local conditions and entry requirements, before travelling.'}</p>${date ? `<p style="margin-top:10px;font-size:11px">Last updated: ${escapeHtml(date)}</p>` : ''}<a class="official-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${hasRegional ? 'Open official advice & regional map' : 'Open official Canadian advice'} <span aria-hidden="true">↗</span></a><div class="notice">Map colours represent the national advisory level. Regional boundaries are not inferred from advisory text; use Canada's official map for subnational risk areas. Always verify current advice before departure.</div></div>`;
+        const url = advisoryUrl(record);
+        panel.innerHTML = `<div class="country-detail"><div class="detail-kicker">Selected destination</div><h3>${escapeHtml(name)}</h3><div class="status" ${risk === null ? '' : `data-level="${risk}"`}><span class="status-dot"></span>${escapeHtml(riskLabel)}</div><p>${hasRegional ? 'Canada lists regional advisories for this destination. Open the official destination page to view its region-specific travel map and read the advice for each area.' : 'Review the complete official destination advice, including local conditions and entry requirements, before travelling.'}</p>${date ? `<p style="margin-top:10px;font-size:11px">Last updated: ${escapeHtml(date)}</p>` : ''}<a class="official-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${hasRegional ? 'Open official advice & regional map' : 'Open official Canadian advice'} <span aria-hidden="true">↗</span></a><div class="notice">Map colours represent the national advisory level used on travel.gc.ca. Regional boundaries are not inferred; use Canada's official map for subnational risk areas.</div></div>`;
         search.value = name;
         results.hidden = true;
       }
@@ -207,7 +207,7 @@
           if (name) lookupNames(name).forEach(key => advisoryByName.set(key, record));
         });
         const generated = json.metadata?.generated?.date;
-        status.textContent = generated ? `Official data · ${generated}` : 'Official data loaded';
+        status.textContent = generated ? `travel.gc.ca · ${generated}` : 'travel.gc.ca official data';
       });
       const boundariesPromise = fetch(BOUNDARY_URL).then(response => { if (!response.ok) throw new Error('Country boundary request failed'); return response.json(); }).then(data => {
         features.push(...data.features);
