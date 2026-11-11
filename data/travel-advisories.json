@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-11T13:13:24+00:00",
-  "generatedAt": "2026-11-10 14:00:19",
+  "fetchedAt": "2026-11-11T19:00:28+00:00",
+  "generatedAt": "2026-11-11 09:40:22",
   "recordCount": 230,
   "countries": [
     {
@@ -1767,9 +1767,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791989459,
-        "date": "2026-10-14 10:50:59",
-        "asp": "2026-10-14T10:50:59.6082999-04:00"
+        "timestamp": 1794407192,
+        "date": "2026-11-11 09:26:32",
+        "asp": "2026-11-11T09:26:32.3685245-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "lithuania",
