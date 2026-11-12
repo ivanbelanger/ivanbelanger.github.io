@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-12T01:17:15+00:00",
-  "generatedAt": "2026-11-11 09:40:22",
+  "fetchedAt": "2026-11-12T15:06:35+00:00",
+  "generatedAt": "2026-11-12 07:40:54",
   "recordCount": 230,
   "countries": [
     {
@@ -927,9 +927,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791983771,
-        "date": "2026-10-14 09:16:11",
-        "asp": "2026-10-14T09:16:11.770000-04:00"
+        "timestamp": 1794486566,
+        "date": "2026-11-12 07:29:26",
+        "asp": "2026-11-12T07:29:26.1856884-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "egypt",
@@ -1977,9 +1977,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794337141,
-        "date": "2026-11-10 13:59:01",
-        "asp": "2026-11-10T13:59:01.1950223-05:00"
+        "timestamp": 1794486691,
+        "date": "2026-11-12 07:31:31",
+        "asp": "2026-11-12T07:31:31.121191-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "mexico",
@@ -2202,9 +2202,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1792057507,
-        "date": "2026-10-15 05:45:07",
-        "asp": "2026-10-15T05:45:07.1632653-04:00"
+        "timestamp": 1794485053,
+        "date": "2026-11-12 07:04:13",
+        "asp": "2026-11-12T07:04:13.4040622-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "new-zealand",
@@ -2757,9 +2757,9 @@
       "advisoryText": "Exercise normal security precautions (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793970322,
-        "date": "2026-11-06 08:05:22",
-        "asp": "2026-11-06T08:05:22.0326801-05:00"
+        "timestamp": 1794486620,
+        "date": "2026-11-12 07:30:20",
+        "asp": "2026-11-12T07:30:20.7004485-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "serbia",
