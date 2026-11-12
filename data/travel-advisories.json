@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-12T15:06:35+00:00",
-  "generatedAt": "2026-11-12 07:40:54",
+  "fetchedAt": "2026-11-12T23:34:28+00:00",
+  "generatedAt": "2026-11-12 15:00:17",
   "recordCount": 230,
   "countries": [
     {
@@ -117,9 +117,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791977002,
-        "date": "2026-10-14 07:23:22",
-        "asp": "2026-10-14T07:23:22.9561329-04:00"
+        "timestamp": 1794497147,
+        "date": "2026-11-12 10:25:47",
+        "asp": "2026-11-12T10:25:47.520000-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "antarctica",
@@ -732,9 +732,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791979900,
-        "date": "2026-10-14 08:11:40",
-        "asp": "2026-10-14T08:11:40.9810715-04:00"
+        "timestamp": 1794512724,
+        "date": "2026-11-12 14:45:24",
+        "asp": "2026-11-12T14:45:24.9050635-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "costa-rica",
@@ -777,9 +777,9 @@
       "advisoryText": "Avoid non-essential travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791904451,
-        "date": "2026-10-13 11:14:11",
-        "asp": "2026-10-13T11:14:11.830000-04:00"
+        "timestamp": 1794505585,
+        "date": "2026-11-12 12:46:25",
+        "asp": "2026-11-12T12:46:25.0809367-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "cuba",
@@ -2757,9 +2757,9 @@
       "advisoryText": "Exercise normal security precautions (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794486620,
-        "date": "2026-11-12 07:30:20",
-        "asp": "2026-11-12T07:30:20.7004485-05:00"
+        "timestamp": 1794499293,
+        "date": "2026-11-12 11:01:33",
+        "asp": "2026-11-12T11:01:33.9901661-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "serbia",
@@ -3312,9 +3312,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793641182,
-        "date": "2026-11-02 12:39:42",
-        "asp": "2026-11-02T12:39:42.5763342-05:00"
+        "timestamp": 1794506290,
+        "date": "2026-11-12 12:58:10",
+        "asp": "2026-11-12T12:58:10.5042155-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "united-states",
