@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-13T06:36:31+00:00",
-  "generatedAt": "2026-11-12 15:00:17",
+  "fetchedAt": "2026-11-13T19:37:33+00:00",
+  "generatedAt": "2026-11-13 14:20:34",
   "recordCount": 230,
   "countries": [
     {
@@ -237,9 +237,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793889218,
-        "date": "2026-11-05 09:33:38",
-        "asp": "2026-11-05T09:33:38.4963367-05:00"
+        "timestamp": 1794584290,
+        "date": "2026-11-13 10:38:10",
+        "asp": "2026-11-13T10:38:10.3830342-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "azores",
@@ -252,9 +252,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791922294,
-        "date": "2026-10-13 16:11:34",
-        "asp": "2026-10-13T16:11:34.9748393-04:00"
+        "timestamp": 1794584828,
+        "date": "2026-11-13 10:47:08",
+        "asp": "2026-11-13T10:47:08.2436951-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "bahamas",
@@ -297,9 +297,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1792495436,
-        "date": "2026-10-20 07:23:56",
-        "asp": "2026-10-20T07:23:56.4633809-04:00"
+        "timestamp": 1794584912,
+        "date": "2026-11-13 10:48:32",
+        "asp": "2026-11-13T10:48:32.3967687-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "barbados",
@@ -372,9 +372,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793796225,
-        "date": "2026-11-04 07:43:45",
-        "asp": "2026-11-04T07:43:45.4970108-05:00"
+        "timestamp": 1794597475,
+        "date": "2026-11-13 14:17:55",
+        "asp": "2026-11-13T14:17:55.0565864-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "bermuda",
@@ -657,9 +657,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1792423712,
-        "date": "2026-10-19 11:28:32",
-        "asp": "2026-10-19T11:28:32.0965742-04:00"
+        "timestamp": 1794585347,
+        "date": "2026-11-13 10:55:47",
+        "asp": "2026-11-13T10:55:47.0447963-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "chile",
@@ -732,9 +732,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794512724,
-        "date": "2026-11-12 14:45:24",
-        "asp": "2026-11-12T14:45:24.9050635-05:00"
+        "timestamp": 1794587720,
+        "date": "2026-11-13 11:35:20",
+        "asp": "2026-11-13T11:35:20.9109183-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "costa-rica",
@@ -1332,9 +1332,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794324257,
-        "date": "2026-11-10 10:24:17",
-        "asp": "2026-11-10T10:24:17.2269605-05:00"
+        "timestamp": 1794596567,
+        "date": "2026-11-13 14:02:47",
+        "asp": "2026-11-13T14:02:47.4529312-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "guyana",
@@ -1527,9 +1527,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791375396,
-        "date": "2026-10-07 08:16:36",
-        "asp": "2026-10-07T08:16:36.7446883-04:00"
+        "timestamp": 1794585071,
+        "date": "2026-11-13 10:51:11",
+        "asp": "2026-11-13T10:51:11.5822777-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "jamaica",
@@ -2472,9 +2472,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791552923,
-        "date": "2026-10-09 09:35:23",
-        "asp": "2026-10-09T09:35:23.8043068-04:00"
+        "timestamp": 1794584551,
+        "date": "2026-11-13 10:42:31",
+        "asp": "2026-11-13T10:42:31.3458303-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "portugal",
@@ -2487,9 +2487,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1790964157,
-        "date": "2026-10-02 14:02:37",
-        "asp": "2026-10-02T14:02:37.1723127-04:00"
+        "timestamp": 1794585152,
+        "date": "2026-11-13 10:52:32",
+        "asp": "2026-11-13T10:52:32.4088731-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "puerto-rico",
@@ -2622,9 +2622,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1792089497,
-        "date": "2026-10-15 14:38:17",
-        "asp": "2026-10-15T14:38:17.1743155-04:00"
+        "timestamp": 1794585221,
+        "date": "2026-11-13 10:53:41",
+        "asp": "2026-11-13T10:53:41.9381111-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "saint-lucia",
@@ -2757,9 +2757,9 @@
       "advisoryText": "Exercise normal security precautions (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794499293,
-        "date": "2026-11-12 11:01:33",
-        "asp": "2026-11-12T11:01:33.9901661-05:00"
+        "timestamp": 1794572400,
+        "date": "2026-11-13 07:20:00",
+        "asp": "2026-11-13T07:20:00.4104856-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "serbia",
@@ -2817,9 +2817,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1790254415,
-        "date": "2026-09-24 08:53:35",
-        "asp": "2026-09-24T08:53:35.9229823-04:00"
+        "timestamp": 1794585278,
+        "date": "2026-11-13 10:54:38",
+        "asp": "2026-11-13T10:54:38.6553205-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "sint-maarten",
@@ -2982,9 +2982,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791916794,
-        "date": "2026-10-13 14:39:54",
-        "asp": "2026-10-13T14:39:54.071465-04:00"
+        "timestamp": 1794585334,
+        "date": "2026-11-13 10:55:34",
+        "asp": "2026-11-13T10:55:34.8105877-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "suriname",
@@ -3162,9 +3162,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1792088208,
-        "date": "2026-10-15 14:16:48",
-        "asp": "2026-10-15T14:16:48.9316535-04:00"
+        "timestamp": 1794585399,
+        "date": "2026-11-13 10:56:39",
+        "asp": "2026-11-13T10:56:39.9811055-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "trinidad-and-tobago",
@@ -3222,9 +3222,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793733627,
-        "date": "2026-11-03 14:20:27",
-        "asp": "2026-11-03T14:20:27.2580433-05:00"
+        "timestamp": 1794585452,
+        "date": "2026-11-13 10:57:32",
+        "asp": "2026-11-13T10:57:32.0742711-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "turks-and-caicos-islands",
