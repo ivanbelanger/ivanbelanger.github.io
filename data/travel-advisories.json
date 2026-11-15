@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-15T06:22:06+00:00",
-  "generatedAt": "2026-11-13 21:40:16",
+  "fetchedAt": "2026-11-15T18:48:22+00:00",
+  "generatedAt": "2026-11-15 13:40:16",
   "recordCount": 230,
   "countries": [
     {
@@ -1287,9 +1287,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793970186,
-        "date": "2026-11-06 08:03:06",
-        "asp": "2026-11-06T08:03:06.3481373-05:00"
+        "timestamp": 1794766852,
+        "date": "2026-11-15 13:20:52",
+        "asp": "2026-11-15T13:20:52.1652438-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "guatemala",
