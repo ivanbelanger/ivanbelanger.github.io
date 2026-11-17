@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-17T07:49:52+00:00",
-  "generatedAt": "2026-11-16 14:20:15",
+  "fetchedAt": "2026-11-17T20:51:58+00:00",
+  "generatedAt": "2026-11-17 11:40:17",
   "recordCount": 230,
   "countries": [
     {
@@ -42,9 +42,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1792065900,
-        "date": "2026-10-15 08:05:00",
-        "asp": "2026-10-15T08:05:00.9336104-04:00"
+        "timestamp": 1794917658,
+        "date": "2026-11-17 07:14:18",
+        "asp": "2026-11-17T07:14:18.5765448-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "algeria",
@@ -1482,9 +1482,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793998582,
-        "date": "2026-11-06 15:56:22",
-        "asp": "2026-11-06T15:56:22.3167839-05:00"
+        "timestamp": 1794916655,
+        "date": "2026-11-17 06:57:35",
+        "asp": "2026-11-17T06:57:35.5499848-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "ireland",
@@ -1587,9 +1587,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793630490,
-        "date": "2026-11-02 09:41:30",
-        "asp": "2026-11-02T09:41:30.360000-05:00"
+        "timestamp": 1794932817,
+        "date": "2026-11-17 11:26:57",
+        "asp": "2026-11-17T11:26:57.9097625-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "kenya",
@@ -2172,9 +2172,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791555513,
-        "date": "2026-10-09 10:18:33",
-        "asp": "2026-10-09T10:18:33.7173554-04:00"
+        "timestamp": 1794931769,
+        "date": "2026-11-17 11:09:29",
+        "asp": "2026-11-17T11:09:29.7222961-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "netherlands",
