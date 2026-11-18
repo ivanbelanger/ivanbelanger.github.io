@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-18T07:20:45+00:00",
-  "generatedAt": "2026-11-17 11:40:17",
+  "fetchedAt": "2026-11-18T20:27:05+00:00",
+  "generatedAt": "2026-11-18 14:40:15",
   "recordCount": 230,
   "countries": [
     {
@@ -1167,9 +1167,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791552552,
-        "date": "2026-10-09 09:29:12",
-        "asp": "2026-10-09T09:29:12.3169865-04:00"
+        "timestamp": 1795017655,
+        "date": "2026-11-18 11:00:55",
+        "asp": "2026-11-18T11:00:55.3717764-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "germany",
@@ -1887,9 +1887,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791544294,
-        "date": "2026-10-09 07:11:34",
-        "asp": "2026-10-09T07:11:34.8184078-04:00"
+        "timestamp": 1795008538,
+        "date": "2026-11-18 08:28:58",
+        "asp": "2026-11-18T08:28:58.0618051-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "malta",
@@ -1977,9 +1977,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794486691,
-        "date": "2026-11-12 07:31:31",
-        "asp": "2026-11-12T07:31:31.121191-05:00"
+        "timestamp": 1795007736,
+        "date": "2026-11-18 08:15:36",
+        "asp": "2026-11-18T08:15:36.9959741-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "mexico",
@@ -2247,9 +2247,9 @@
       "advisoryText": "Avoid non-essential travel (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1792590873,
-        "date": "2026-10-21 09:54:33",
-        "asp": "2026-10-21T09:54:33.520000-04:00"
+        "timestamp": 1795030595,
+        "date": "2026-11-18 14:36:35",
+        "asp": "2026-11-18T14:36:35.980000-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "nigeria",
@@ -2427,9 +2427,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794855656,
-        "date": "2026-11-16 14:00:56",
-        "asp": "2026-11-16T14:00:56.470000-05:00"
+        "timestamp": 1795015632,
+        "date": "2026-11-18 10:27:12",
+        "asp": "2026-11-18T10:27:12.8243796-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "peru",
@@ -3267,9 +3267,9 @@
       "advisoryText": "Avoid all travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793019438,
-        "date": "2026-10-26 08:57:18",
-        "asp": "2026-10-26T08:57:18.448923-04:00"
+        "timestamp": 1795018523,
+        "date": "2026-11-18 11:15:23",
+        "asp": "2026-11-18T11:15:23.5099145-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "ukraine",
@@ -3387,9 +3387,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793186282,
-        "date": "2026-10-28 07:18:02",
-        "asp": "2026-10-28T07:18:02.0524619-04:00"
+        "timestamp": 1795024060,
+        "date": "2026-11-18 12:47:40",
+        "asp": "2026-11-18T12:47:40.4112321-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "vietnam",
