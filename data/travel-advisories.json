@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-18T20:27:05+00:00",
-  "generatedAt": "2026-11-18 14:40:15",
+  "fetchedAt": "2026-11-19T07:18:12+00:00",
+  "generatedAt": "2026-11-18 17:00:15",
   "recordCount": 230,
   "countries": [
     {
@@ -1692,9 +1692,9 @@
       "advisoryText": "Avoid all travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794833810,
-        "date": "2026-11-16 07:56:50",
-        "asp": "2026-11-16T07:56:50.2948391-05:00"
+        "timestamp": 1795037814,
+        "date": "2026-11-18 16:36:54",
+        "asp": "2026-11-18T16:36:54.5622119-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "lebanon",
@@ -1977,9 +1977,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795007736,
-        "date": "2026-11-18 08:15:36",
-        "asp": "2026-11-18T08:15:36.9959741-05:00"
+        "timestamp": 1795035916,
+        "date": "2026-11-18 16:05:16",
+        "asp": "2026-11-18T16:05:16.8362737-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "mexico",
@@ -3312,9 +3312,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794623928,
-        "date": "2026-11-13 21:38:48",
-        "asp": "2026-11-13T21:38:48.6459092-05:00"
+        "timestamp": 1795038203,
+        "date": "2026-11-18 16:43:23",
+        "asp": "2026-11-18T16:43:23.4450712-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "united-states",
