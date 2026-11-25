@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-25T08:24:58+00:00",
-  "generatedAt": "2026-11-24 16:00:16",
+  "fetchedAt": "2026-11-25T21:38:26+00:00",
+  "generatedAt": "2026-11-25 14:20:17",
   "recordCount": 230,
   "countries": [
     {
@@ -12,9 +12,9 @@
       "advisoryText": "Avoid all travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791975710,
-        "date": "2026-10-14 07:01:50",
-        "asp": "2026-10-14T07:01:50.7595549-04:00"
+        "timestamp": 1795634364,
+        "date": "2026-11-25 14:19:24",
+        "asp": "2026-11-25T14:19:24.0119905-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "afghanistan",
@@ -57,9 +57,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795456678,
-        "date": "2026-11-23 12:57:58",
-        "asp": "2026-11-23T12:57:58.3445285-05:00"
+        "timestamp": 1795631703,
+        "date": "2026-11-25 13:35:03",
+        "asp": "2026-11-25T13:35:03.5661435-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "american-samoa",
@@ -192,9 +192,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793620560,
-        "date": "2026-11-02 06:56:00",
-        "asp": "2026-11-02T06:56:00.6760986-05:00"
+        "timestamp": 1795610863,
+        "date": "2026-11-25 07:47:43",
+        "asp": "2026-11-25T07:47:43.6742774-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "australia",
@@ -822,9 +822,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791983155,
-        "date": "2026-10-14 09:05:55",
-        "asp": "2026-10-14T09:05:55.130000-04:00"
+        "timestamp": 1795624742,
+        "date": "2026-11-25 11:39:02",
+        "asp": "2026-11-25T11:39:02.2990223-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "czechia",
@@ -1077,9 +1077,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795426552,
-        "date": "2026-11-23 04:35:52",
-        "asp": "2026-11-23T04:35:52.3440505-05:00"
+        "timestamp": 1795626226,
+        "date": "2026-11-25 12:03:46",
+        "asp": "2026-11-25T12:03:46.6722762-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "france",
@@ -1137,9 +1137,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791922383,
-        "date": "2026-10-13 16:13:03",
-        "asp": "2026-10-13T16:13:03.3172337-04:00"
+        "timestamp": 1795632429,
+        "date": "2026-11-25 13:47:09",
+        "asp": "2026-11-25T13:47:09.9731905-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "gambia-the",
@@ -1332,9 +1332,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795549996,
-        "date": "2026-11-24 14:53:16",
-        "asp": "2026-11-24T14:53:16.3429297-05:00"
+        "timestamp": 1795622468,
+        "date": "2026-11-25 11:01:08",
+        "asp": "2026-11-25T11:01:08.4413629-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "guyana",
@@ -2922,9 +2922,9 @@
       "advisoryText": "Avoid all travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1790964157,
-        "date": "2026-10-02 14:02:37",
-        "asp": "2026-10-02T14:02:37.0941911-04:00"
+        "timestamp": 1795617556,
+        "date": "2026-11-25 09:39:16",
+        "asp": "2026-11-25T09:39:16.2880247-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "south-sudan",
