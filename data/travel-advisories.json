@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-26T08:09:14+00:00",
-  "generatedAt": "2026-11-25 14:20:17",
+  "fetchedAt": "2026-11-26T21:26:51+00:00",
+  "generatedAt": "2026-11-26 15:00:24",
   "recordCount": 230,
   "countries": [
     {
@@ -522,9 +522,9 @@
       "advisoryText": "Avoid all travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791982163,
-        "date": "2026-10-14 08:49:23",
-        "asp": "2026-10-14T08:49:23.7896155-04:00"
+        "timestamp": 1795722256,
+        "date": "2026-11-26 14:44:16",
+        "asp": "2026-11-26T14:44:16.5029523-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "burkina-faso",
@@ -1332,9 +1332,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795622468,
-        "date": "2026-11-25 11:01:08",
-        "asp": "2026-11-25T11:01:08.4413629-05:00"
+        "timestamp": 1795698322,
+        "date": "2026-11-26 08:05:22",
+        "asp": "2026-11-26T08:05:22.7937603-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "guyana",
@@ -3162,9 +3162,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794601631,
-        "date": "2026-11-13 15:27:11",
-        "asp": "2026-11-13T15:27:11.603033-05:00"
+        "timestamp": 1795710452,
+        "date": "2026-11-26 11:27:32",
+        "asp": "2026-11-26T11:27:32.260431-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "trinidad-and-tobago",
