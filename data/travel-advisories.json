@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-27T08:20:15+00:00",
-  "generatedAt": "2026-11-26 16:40:18",
+  "fetchedAt": "2026-11-27T21:11:34+00:00",
+  "generatedAt": "2026-11-27 16:00:18",
   "recordCount": 230,
   "countries": [
     {
@@ -192,9 +192,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795610863,
-        "date": "2026-11-25 07:47:43",
-        "asp": "2026-11-25T07:47:43.6742774-05:00"
+        "timestamp": 1795783437,
+        "date": "2026-11-27 07:43:57",
+        "asp": "2026-11-27T07:43:57.9826638-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "australia",
@@ -837,9 +837,9 @@
       "advisoryText": "Avoid all travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1793629906,
-        "date": "2026-11-02 09:31:46",
-        "asp": "2026-11-02T09:31:46.360000-05:00"
+        "timestamp": 1795791814,
+        "date": "2026-11-27 10:03:34",
+        "asp": "2026-11-27T10:03:34.5650365-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "congo-kinshasa",
@@ -987,9 +987,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791983155,
-        "date": "2026-10-14 09:05:55",
-        "asp": "2026-10-14T09:05:55.130000-04:00"
+        "timestamp": 1795792121,
+        "date": "2026-11-27 10:08:41",
+        "asp": "2026-11-27T10:08:41.6353939-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "estonia",
@@ -1587,9 +1587,9 @@
       "advisoryText": "Exercise a high degree of caution (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794932817,
-        "date": "2026-11-17 11:26:57",
-        "asp": "2026-11-17T11:26:57.9097625-05:00"
+        "timestamp": 1795792461,
+        "date": "2026-11-27 10:14:21",
+        "asp": "2026-11-27T10:14:21.1108807-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "kenya",
@@ -2577,9 +2577,9 @@
       "advisoryText": "Exercise normal security precautions (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795189401,
-        "date": "2026-11-20 10:43:21",
-        "asp": "2026-11-20T10:43:21.2268456-05:00"
+        "timestamp": 1795793938,
+        "date": "2026-11-27 10:38:58",
+        "asp": "2026-11-27T10:38:58.2291718-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "rwanda",
@@ -2757,9 +2757,9 @@
       "advisoryText": "Exercise normal security precautions (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1794572400,
-        "date": "2026-11-13 07:20:00",
-        "asp": "2026-11-13T07:20:00.4104856-05:00"
+        "timestamp": 1795783620,
+        "date": "2026-11-27 07:47:00",
+        "asp": "2026-11-27T07:47:00.6501124-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "serbia",
@@ -2802,9 +2802,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795195828,
-        "date": "2026-11-20 12:30:28",
-        "asp": "2026-11-20T12:30:28.3286066-05:00"
+        "timestamp": 1795813193,
+        "date": "2026-11-27 15:59:53",
+        "asp": "2026-11-27T15:59:53.2139425-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "singapore",
@@ -2907,9 +2907,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795541884,
-        "date": "2026-11-24 12:38:04",
-        "asp": "2026-11-24T12:38:04.8815312-05:00"
+        "timestamp": 1795783500,
+        "date": "2026-11-27 07:45:00",
+        "asp": "2026-11-27T07:45:00.9656215-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "south-korea",
@@ -2922,9 +2922,9 @@
       "advisoryText": "Avoid all travel",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795617556,
-        "date": "2026-11-25 09:39:16",
-        "asp": "2026-11-25T09:39:16.2880247-05:00"
+        "timestamp": 1795791924,
+        "date": "2026-11-27 10:05:24",
+        "asp": "2026-11-27T10:05:24.7810376-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "south-sudan",
@@ -3252,9 +3252,9 @@
       "advisoryText": "Avoid non-essential travel (with regional advisories)",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1791920058,
-        "date": "2026-10-13 15:34:18",
-        "asp": "2026-10-13T15:34:18.7748976-04:00"
+        "timestamp": 1795792235,
+        "date": "2026-11-27 10:10:35",
+        "asp": "2026-11-27T10:10:35.0388018-05:00"
       },
       "hasRegionalAdvisory": true,
       "urlSlug": "uganda",
@@ -3312,9 +3312,9 @@
       "advisoryText": "Exercise normal security precautions",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795463221,
-        "date": "2026-11-23 14:47:01",
-        "asp": "2026-11-23T14:47:01.0401168-05:00"
+        "timestamp": 1795811714,
+        "date": "2026-11-27 15:35:14",
+        "asp": "2026-11-27T15:35:14.2531367-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "united-states",
