@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-eng.json",
-  "fetchedAt": "2026-11-26T21:26:51+00:00",
-  "generatedAt": "2026-11-26 15:00:24",
+  "fetchedAt": "2026-11-27T08:20:15+00:00",
+  "generatedAt": "2026-11-26 16:40:18",
   "recordCount": 230,
   "countries": [
     {
@@ -1332,9 +1332,9 @@
       "advisoryText": "Exercise a high degree of caution",
       "dateModified": null,
       "datePublished": {
-        "timestamp": 1795698322,
-        "date": "2026-11-26 08:05:22",
-        "asp": "2026-11-26T08:05:22.7937603-05:00"
+        "timestamp": 1795728014,
+        "date": "2026-11-26 16:20:14",
+        "asp": "2026-11-26T16:20:14.8723149-05:00"
       },
       "hasRegionalAdvisory": false,
       "urlSlug": "guyana",
